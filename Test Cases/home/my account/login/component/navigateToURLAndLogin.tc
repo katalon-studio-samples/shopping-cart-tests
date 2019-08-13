@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>navigateToURLAndLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>101740b2-58ae-4ebd-a6b0-ad478bd6a1b4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a01697be-8a1d-4227-861a-2b68902323da</id>
+      <masked>false</masked>
+      <name>pageName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.username</defaultValue>
+      <description></description>
+      <id>ef781da0-b3c9-444e-9ae1-63c2b732d8ae</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.password</defaultValue>
+      <description></description>
+      <id>06809db5-7264-48ed-bb28-d663b8739621</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

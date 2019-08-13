@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>beccc10f-763a-4b3f-878b-dc3dd6645f67</testCaseGuid>
+   <variable>
+      <defaultValue>'myAccount.logout'</defaultValue>
+      <description></description>
+      <id>25f91528-1fae-49f9-8661-f1492fff8c18</id>
+      <masked>false</masked>
+      <name>Logout</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.username</defaultValue>
+      <description></description>
+      <id>46dc37c7-f990-4a68-9d6f-1e3e4bc57af4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.password</defaultValue>
+      <description></description>
+      <id>76783d74-057c-4093-9e6b-a3432db32e09</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'login'</defaultValue>
+      <description></description>
+      <id>4d089141-96a5-4fff-9475-1fec626808be</id>
+      <masked>false</masked>
+      <name>pageName</name>
+   </variable>
+</TestCaseEntity>

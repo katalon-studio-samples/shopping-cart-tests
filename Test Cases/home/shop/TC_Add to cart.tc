@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Add to cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b64bfa5-4482-4a66-b6cf-39282eda9906</testCaseGuid>
+   <variable>
+      <defaultValue>'Home.product'</defaultValue>
+      <description></description>
+      <id>f72051e7-af15-462b-bc56-bdfd0b42a7dc</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart.add'</defaultValue>
+      <description></description>
+      <id>6e0afc1c-e743-44e1-bac9-7737c1bde6e1</id>
+      <masked>false</masked>
+      <name>addCart</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart.view'</defaultValue>
+      <description></description>
+      <id>ab8363ea-11f6-4ee4-bfa8-a41feddeaa59</id>
+      <masked>false</masked>
+      <name>viewCart</name>
+   </variable>
+</TestCaseEntity>

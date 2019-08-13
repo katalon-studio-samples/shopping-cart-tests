@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>getPageURL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50134756-cc76-495f-8405-e64a60eca805</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2c4964d4-0573-4278-848c-6d43364b9b1e</id>
+      <masked>false</masked>
+      <name>pageName</name>
+   </variable>
+</TestCaseEntity>
