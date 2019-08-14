@@ -12,7 +12,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object baseURL
+    public static Object urlLogin
      
     /**
      * <p></p>
@@ -29,6 +29,16 @@ public class GlobalVariable {
      */
     public static Object waitPresentTimeout
      
+    /**
+     * <p></p>
+     */
+    public static Object urlShop
+     
+    /**
+     * <p></p>
+     */
+    public static Object companyName
+     
 
     static {
         try {
@@ -36,10 +46,12 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
-            baseURL = selectedVariables['baseURL']
+            urlLogin = selectedVariables['urlLogin']
             username = selectedVariables['username']
             password = selectedVariables['password']
             waitPresentTimeout = selectedVariables['waitPresentTimeout']
+            urlShop = selectedVariables['urlShop']
+            companyName = selectedVariables['companyName']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

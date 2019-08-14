@@ -6,8 +6,8 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://katalon-wordpress-demo.herokuapp.com/'</initValue>
-      <name>baseURL</name>
+      <initValue>'https://katalon-wordpress-demo.herokuapp.com/my-account'</initValue>
+      <name>urlLogin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -23,5 +23,15 @@
       <description></description>
       <initValue>3</initValue>
       <name>waitPresentTimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://katalon-wordpress-demo.herokuapp.com'</initValue>
+      <name>urlShop</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'KMS'</initValue>
+      <name>companyName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
