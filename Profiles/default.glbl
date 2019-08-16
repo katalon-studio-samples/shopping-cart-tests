@@ -71,7 +71,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://katalon-wordpress-demo.herokuapp.com/my-account/checkout'</initValue>
-      <name>urlCheckout</name>
+      <initValue>'xpath'</initValue>
+      <name>attribute</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'//*[@class = \'woocommerce-loop-product__title\' and (text() = \'productName\' or . = \'productName\')]'</initValue>
+      <name>xpath</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

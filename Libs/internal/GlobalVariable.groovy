@@ -77,7 +77,12 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object urlCheckout
+    public static Object attribute
+     
+    /**
+     * <p></p>
+     */
+    public static Object xpath
      
 
     static {
@@ -99,7 +104,8 @@ public class GlobalVariable {
             postCode = selectedVariables['postCode']
             Phone = selectedVariables['Phone']
             uploadPlaceOrderTimeout = selectedVariables['uploadPlaceOrderTimeout']
-            urlCheckout = selectedVariables['urlCheckout']
+            attribute = selectedVariables['attribute']
+            xpath = selectedVariables['xpath']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

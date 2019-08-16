@@ -24,16 +24,18 @@ public class Shop {
 	def static void addToCart(){
 		Login.loginIntoApplicationWith()
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Simple Object/HomePage/Shop/lnkShop'),GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Object Repository/Simple Object/HomePage/Shop/lnkShop'))
+		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/lnkShop'),GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Simple Object/Shop page/lnkShop'))
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Simple Object/HomePage/Shop/lblProduct'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Object Repository/Simple Object/HomePage/Shop/lblProduct'))
+		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/lblProduct'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Simple Object/Shop page/lblProduct'))
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Simple Object/HomePage/Shop/btnAddToCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Object Repository/Simple Object/HomePage/Shop/btnAddToCart'))
+		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Simple Object/Shop page/btnAddToCart'))
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Simple Object/HomePage/Shop/lnkViewCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Object Repository/Simple Object/HomePage/Shop/lnkViewCart'))
+		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Simple Object/Shop page/lnkViewCart'))
+
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Simple Object/Shop page/btnProceed'), GlobalVariable.waitPresentTimeout)
 	}
 }

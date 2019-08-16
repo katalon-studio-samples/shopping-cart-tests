@@ -13,6 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-TestObject icoBlockUI = findTestObject('Simple Object/Checkout page/blockUI')
-WebUI.waitForElementPresent(icoBlockUI,GlobalVariable.waitPresentTimeout)
-WebUI.waitForElementNotPresent(icoBlockUI, GlobalVariable.uploadPlaceOrderTimeout)
+CustomKeywords.'simple.login.Login.loginIntoApplicationWith'()
+
+WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
+WebUI.click(findTestObject('Simple Object/Shop page/lnkShop'))
+
+WebUI.click(findTestObject('Simple Object/Shop page/lblSearch'))
+WebUI.setText(findTestObject('Simple Object/Shop page/lblSearch'), productName)
+WebUI.click(findTestObject('Simple Object/Shop page/btnSubmitSearch'))
+WebUI.verifyElementPresent(findTestObject('Simple Object/Shop page/lblResult'), GlobalVariable.waitPresentTimeout)
+WebUI.closeBrowser()
