@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnkCheckout</name>
+   <name>select_single</name>
    <tag></tag>
-   <elementGuidId>e588dfff-8941-4094-a18c-08c5b1a49b23</elementGuidId>
+   <elementGuidId>8106fa99-b131-428e-8c8f-5a4756c20284</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'https://katalon-wordpress-demo.herokuapp.com/checkout/' and (text() = '
-	Proceed to checkout' or . = '
-	Proceed to checkout')]</value>
+         <value>//*[@name = 'billing_country' and @id = 'billing_country']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,16 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>name</name>
       <type>Main</type>
-      <value>https://katalon-wordpress-demo.herokuapp.com/checkout/</value>
+      <value>billing_country</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>
-	Proceed to checkout</value>
+      <value>billing_country</value>
    </webElementProperties>
 </WebElementEntity>

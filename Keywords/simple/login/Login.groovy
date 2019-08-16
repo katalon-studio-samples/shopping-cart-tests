@@ -28,7 +28,7 @@ import internal.GlobalVariable
  * */
 public class Login {
 	@Keyword
-	public static void loginIntoApplication(String applicationURL,String username,String password){
+	def static void loginIntoApplication(String applicationURL,String username,String password){
 
 		WebUI.openBrowser(applicationURL)
 		WebUI.waitForPageLoad(GlobalVariable.waitPresentTimeout)
@@ -43,12 +43,12 @@ public class Login {
 	}
 
 	@Keyword
-	public static void loginIntoApplicationWith(){
-		loginIntoApplication(GlobalVariable.urlLogin,GlobalVariable.username,GlobalVariable.password)
+	def static void loginIntoApplicationWith(){
+		loginIntoApplication(GlobalVariable.urlLogin, GlobalVariable.username, GlobalVariable.password)
 	}
 
 	@Keyword
-	public static void logoutFromApllication(){
+	def static void logoutFromApllication(){
 		WebUI.waitForElementPresent(findTestObject('Simple Object/HomePage/MyAccount/lnkLogout'), GlobalVariable.waitPresentTimeout)
 		WebUI.click(findTestObject('Simple Object/HomePage/MyAccount/lnkLogout'))
 		WebUI.waitForElementVisible(findTestObject('Simple Object/HomePage/MyAccount/nav_HomeMyaccount'), GlobalVariable.waitPresentTimeout)

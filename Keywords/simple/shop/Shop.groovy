@@ -17,12 +17,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
-import oracle.sql.LnxLibThin.lnxqc
 import simple.login.Login
 
 public class Shop {
 	@Keyword
-	public static void addToCart(){
+	def static void addToCart(){
 		Login.loginIntoApplicationWith()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Simple Object/HomePage/Shop/lnkShop'),GlobalVariable.waitPresentTimeout)
@@ -36,8 +35,5 @@ public class Shop {
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Simple Object/HomePage/Shop/lnkViewCart'), GlobalVariable.waitPresentTimeout)
 		WebUI.click(findTestObject('Object Repository/Simple Object/HomePage/Shop/lnkViewCart'))
-
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Simple Object/HomePage/Shop/lnkCheckout'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Object Repository/Simple Object/HomePage/Shop/lnkCheckout'))
 	}
 }

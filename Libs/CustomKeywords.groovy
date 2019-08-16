@@ -7,37 +7,75 @@ import com.kms.katalon.core.testobject.TestObject
 
 import java.lang.String
 
-import org.openqa.selenium.WebElement
+import java.util.List
 
 
-def static "simple.component.JSelect.selectByText"(
-    	TestObject container	
-     , 	TestObject o	
-     , 	String optionText	) {
-    (new simple.component.JSelect()).selectByText(
-        	container
-         , 	o
-         , 	optionText)
+def static "simple.select2.Select2.selectOptionByLabel"(
+    	TestObject to	
+     , 	String option	) {
+    (new simple.select2.Select2()).selectOptionByLabel(
+        	to
+         , 	option)
 }
 
-def static "simple.component.JSelect.selectByText"(
-    	TestObject container	
-     , 	String labelSelect	
-     , 	String optionText	) {
-    (new simple.component.JSelect()).selectByText(
-        	container
-         , 	labelSelect
-         , 	optionText)
+def static "simple.select2.Select2.selectManyOptionsByLabel"(
+    	TestObject to	
+     , 	java.util.List<String> options	) {
+    (new simple.select2.Select2()).selectManyOptionsByLabel(
+        	to
+         , 	options)
 }
 
-def static "simple.component.JSelect.selectByText"(
-    	TestObject container	
-     , 	WebElement el	
-     , 	String optionText	) {
-    (new simple.component.JSelect()).selectByText(
-        	container
-         , 	el
-         , 	optionText)
+def static "simple.select2.Select2.getSelectedOptionsLabel"(
+    	TestObject to	) {
+    (new simple.select2.Select2()).getSelectedOptionsLabel(
+        	to)
+}
+
+def static "simple.select2.Select2.getSelectedOptionsList"(
+    	TestObject to	) {
+    (new simple.select2.Select2()).getSelectedOptionsList(
+        	to)
+}
+
+def static "simple.select2.Select2.getAllOptionsLabel"(
+    	TestObject to	) {
+    (new simple.select2.Select2()).getAllOptionsLabel(
+        	to)
+}
+
+def static "simple.select2.Select2.removeOptions"(
+    	TestObject to	
+     , 	java.util.List<String> options	) {
+    (new simple.select2.Select2()).removeOptions(
+        	to
+         , 	options)
+}
+
+def static "simple.select2.Utils.clickOnSelect2"(
+    	TestObject to	) {
+    (new simple.select2.Utils()).clickOnSelect2(
+        	to)
+}
+
+def static "simple.select2.Utils.findContainer"(
+    	TestObject to	) {
+    (new simple.select2.Utils()).findContainer(
+        	to)
+}
+
+def static "simple.select2.Utils.selectResult"(
+    	String option	
+     , 	String subContainerOpenClass	) {
+    (new simple.select2.Utils()).selectResult(
+        	option
+         , 	subContainerOpenClass)
+}
+
+def static "simple.select2.Utils.enterText"(
+    	String option	) {
+    (new simple.select2.Utils()).enterText(
+        	option)
 }
 
 def static "simple.login.Login.loginIntoApplication"(

@@ -39,6 +39,46 @@ public class GlobalVariable {
      */
     public static Object companyName
      
+    /**
+     * <p></p>
+     */
+    public static Object optionText
+     
+    /**
+     * <p></p>
+     */
+    public static Object address
+     
+    /**
+     * <p></p>
+     */
+    public static Object city
+     
+    /**
+     * <p></p>
+     */
+    public static Object country
+     
+    /**
+     * <p></p>
+     */
+    public static Object postCode
+     
+    /**
+     * <p></p>
+     */
+    public static Object Phone
+     
+    /**
+     * <p></p>
+     */
+    public static Object uploadPlaceOrderTimeout
+     
+    /**
+     * <p></p>
+     */
+    public static Object urlCheckout
+     
 
     static {
         try {
@@ -52,6 +92,14 @@ public class GlobalVariable {
             waitPresentTimeout = selectedVariables['waitPresentTimeout']
             urlShop = selectedVariables['urlShop']
             companyName = selectedVariables['companyName']
+            optionText = selectedVariables['optionText']
+            address = selectedVariables['address']
+            city = selectedVariables['city']
+            country = selectedVariables['country']
+            postCode = selectedVariables['postCode']
+            Phone = selectedVariables['Phone']
+            uploadPlaceOrderTimeout = selectedVariables['uploadPlaceOrderTimeout']
+            urlCheckout = selectedVariables['urlCheckout']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
