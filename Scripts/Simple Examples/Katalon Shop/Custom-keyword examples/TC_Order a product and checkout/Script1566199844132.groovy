@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Simple Object/Shop page/lnkShop'))
 
 CustomKeywords.'simple.Shop.addToCartWith'()
 
-CustomKeywords.'simple.Checkout.CheckoutShopWith'()
+CustomKeywords.'simple.Checkout.CheckoutShop'(companyName, optionText, address, city, postCode, Phone)
 
 CustomKeywords.'simple.Login.logoutFromApplication'()
 

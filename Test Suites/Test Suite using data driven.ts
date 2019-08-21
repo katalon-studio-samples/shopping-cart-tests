@@ -11,24 +11,54 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>999f20d4-56da-413a-83c3-d0b61a24d0f7</testSuiteGuid>
    <testCaseLink>
-      <guid>a99f8d68-fd80-4e28-b704-1234da26d73b</guid>
+      <guid>a2666d3c-7f81-4ddd-b255-3be9f830a596</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Data-driven examples/TC_Order a product and checkout</testCaseId>
+      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword examples/TC_Order a product and checkout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>8a3e225c-40b1-4ada-bc91-c2e067696057</id>
+         <id>d9753169-b52b-4e5a-b38f-249c1026ddac</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Object Texts</testDataId>
+         <testDataId>Data Files/Multiple Checkout</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>8a3e225c-40b1-4ada-bc91-c2e067696057</testDataLinkId>
+         <testDataLinkId>d9753169-b52b-4e5a-b38f-249c1026ddac</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>productName</value>
-         <variableId>e316e7e7-cde2-4ff4-84f7-e4519410ab7c</variableId>
+         <value>companyName</value>
+         <variableId>672fb4fd-4f00-452f-a8b4-62df3d124ffc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d9753169-b52b-4e5a-b38f-249c1026ddac</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>optionText</value>
+         <variableId>51421ccf-ad17-4e9f-9d5a-18e620ee93bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d9753169-b52b-4e5a-b38f-249c1026ddac</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
+         <variableId>2c863fc5-9dab-4c4a-881c-d478032e26c7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d9753169-b52b-4e5a-b38f-249c1026ddac</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>4f8f1ad7-8f79-44a0-b33d-fc78e90e9e1a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d9753169-b52b-4e5a-b38f-249c1026ddac</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postCode</value>
+         <variableId>1106ce6b-eba2-406b-ac41-b29f53a45fcd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d9753169-b52b-4e5a-b38f-249c1026ddac</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Phone</value>
+         <variableId>5cb399d2-1bfc-408e-8254-a03dd003f568</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

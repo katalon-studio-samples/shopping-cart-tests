@@ -43,12 +43,12 @@ public class Checkout {
 		WebUI.click(findTestObject('Simple Object/Checkout page/btnPlaceOrder'))
 
 		WebUI.callTestCase(findTestCase('Test Cases/Simple Examples/Utils/waitBlockUIDismissed'), null)
+
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Simple Object/Checkout page/elDetail'),  GlobalVariable.waitPresentTimeout)
 	}
-	
+
 	@Keyword
 	def static void CheckoutShopWith(){
 		CheckoutShop(GlobalVariable.companyName, GlobalVariable.optionText, GlobalVariable.address, GlobalVariable.city, GlobalVariable.postCode, GlobalVariable.Phone)
 	}
-	
-	
 }

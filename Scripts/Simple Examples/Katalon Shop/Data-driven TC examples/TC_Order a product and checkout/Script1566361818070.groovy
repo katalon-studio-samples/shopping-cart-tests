@@ -24,8 +24,7 @@ WebUI.click(findTestObject('Simple Object/Shop page/lnkShop'))
 
 TestData productList = findTestData(GlobalVariable.dataFile)
 List<String> a = productList.getAllData().stream().map{data -> data[0]}.collect(Collectors.toList())
-String temp = ''
-String urlDetail = ''
+
 for(def s : a){
 	CustomKeywords.'simple.Shop.addToCart'(s.toString(), GlobalVariable.urlProduct)
 }
