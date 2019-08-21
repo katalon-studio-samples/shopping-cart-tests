@@ -16,17 +16,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'simple.Login.loginIntoApplicationWith'()
+CustomKeywords.'simple.Login.loginIntoApplicationWithGlobalVariable'()
 
 WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
 
 WebUI.click(findTestObject('Simple Object/Shop page/lnkShop'))
 
-TestData productList = findTestData(GlobalVariable.dataFile)
-List<String> a = productList.getAllData().stream().map{data -> data[0]}.collect(Collectors.toList())
+TestData product = findTestData(GlobalVariable.dataFile)
+List<String> productList = product.getAllData().stream()
+							.map{data -> data[0]}/*get first column of each row in data file */
+							.collect(Collectors.toList())/*add collect and parse to list*/
 
-for(def s : a){
-	CustomKeywords.'simple.Shop.addToCart'(s.toString(), GlobalVariable.urlProduct)
+for(def productName : productList){
+	CustomKeywords.'simple.Shop.addToCart'(productName.toString(), GlobalVariable.urlProduct)
 }
-CustomKeywords.'simple.Checkout.CheckoutShopWith'()
+CustomKeywords.'simple.Checkout.CheckoutShopWithGlobalVariable'()
 WebUI.closeBrowser()

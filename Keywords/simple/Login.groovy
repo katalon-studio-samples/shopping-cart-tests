@@ -44,7 +44,7 @@ public class Login {
 	}
 
 	@Keyword
-	def static void loginIntoApplicationWith(){
+	def static void loginIntoApplicationWithGlobalVariable(){
 		loginIntoApplication(GlobalVariable.urlLogin, GlobalVariable.username, GlobalVariable.password)
 	}
 

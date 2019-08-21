@@ -36,11 +36,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Vietnam'</initValue>
-      <name>optionText</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'119 Nguyen Thi Thap'</initValue>
       <name>address</name>
    </GlobalVariableEntity>
@@ -51,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'District 7'</initValue>
+      <initValue>'Vietnam'</initValue>
       <name>country</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +66,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Object Texts'</initValue>
+      <initValue>'List Product'</initValue>
       <name>dataFile</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

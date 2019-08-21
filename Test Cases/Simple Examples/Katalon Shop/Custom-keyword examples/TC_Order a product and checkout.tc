@@ -13,11 +13,11 @@
       <name>companyName</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.optionText</defaultValue>
+      <defaultValue>GlobalVariable.country</defaultValue>
       <description></description>
       <id>51421ccf-ad17-4e9f-9d5a-18e620ee93bc</id>
       <masked>false</masked>
-      <name>optionText</name>
+      <name>country</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.address</defaultValue>
