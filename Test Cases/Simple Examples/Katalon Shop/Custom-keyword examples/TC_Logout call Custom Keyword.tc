@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Logout call Custom Keyword</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>4e899762-5467-408e-b703-3dcc763f2fe8</testCaseGuid>
-</TestCaseEntity>

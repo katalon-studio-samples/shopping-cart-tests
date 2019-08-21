@@ -74,6 +74,26 @@ public class GlobalVariable {
      */
     public static Object uploadPlaceOrderTimeout
      
+    /**
+     * <p></p>
+     */
+    public static Object dataFile
+     
+    /**
+     * <p></p>
+     */
+    public static Object inputColumHeader
+     
+    /**
+     * <p></p>
+     */
+    public static Object urlProduct
+     
+    /**
+     * <p></p>
+     */
+    public static Object productName
+     
 
     static {
         try {
@@ -94,6 +114,10 @@ public class GlobalVariable {
             postCode = selectedVariables['postCode']
             Phone = selectedVariables['Phone']
             uploadPlaceOrderTimeout = selectedVariables['uploadPlaceOrderTimeout']
+            dataFile = selectedVariables['dataFile']
+            inputColumHeader = selectedVariables['inputColumHeader']
+            urlProduct = selectedVariables['urlProduct']
+            productName = selectedVariables['productName']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

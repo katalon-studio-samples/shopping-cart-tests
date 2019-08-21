@@ -69,4 +69,24 @@
       <initValue>60</initValue>
       <name>uploadPlaceOrderTimeout</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Object Texts'</initValue>
+      <name>dataFile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'productName'</initValue>
+      <name>inputColumHeader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://katalon-wordpress-demo.herokuapp.com/product'</initValue>
+      <name>urlProduct</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Flying Ninja'</initValue>
+      <name>productName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

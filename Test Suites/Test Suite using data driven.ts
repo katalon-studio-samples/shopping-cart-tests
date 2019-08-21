@@ -14,7 +14,7 @@
       <guid>a99f8d68-fd80-4e28-b704-1234da26d73b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Data-driven examples/TC_Search as variable data driven</testCaseId>
+      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Data-driven examples/TC_Order a product and checkout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8a3e225c-40b1-4ada-bc91-c2e067696057</id>
@@ -22,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Data-driven-search-product</testDataId>
+         <testDataId>Data Files/Object Texts</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>8a3e225c-40b1-4ada-bc91-c2e067696057</testDataLinkId>

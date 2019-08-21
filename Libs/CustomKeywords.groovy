@@ -10,92 +10,120 @@ import java.lang.String
 import java.util.List
 
 
-def static "simple.select2.Select2.selectOptionByLabel"(
-    	TestObject to	
-     , 	String option	) {
-    (new simple.select2.Select2()).selectOptionByLabel(
-        	to
-         , 	option)
-}
-
-def static "simple.select2.Select2.selectManyOptionsByLabel"(
-    	TestObject to	
-     , 	java.util.List<String> options	) {
-    (new simple.select2.Select2()).selectManyOptionsByLabel(
-        	to
-         , 	options)
-}
-
-def static "simple.select2.Select2.getSelectedOptionsLabel"(
+def static "simple.Utils.clickOnSelect2"(
     	TestObject to	) {
-    (new simple.select2.Select2()).getSelectedOptionsLabel(
+    (new simple.Utils()).clickOnSelect2(
         	to)
 }
 
-def static "simple.select2.Select2.getSelectedOptionsList"(
+def static "simple.Utils.findContainer"(
     	TestObject to	) {
-    (new simple.select2.Select2()).getSelectedOptionsList(
+    (new simple.Utils()).findContainer(
         	to)
 }
 
-def static "simple.select2.Select2.getAllOptionsLabel"(
-    	TestObject to	) {
-    (new simple.select2.Select2()).getAllOptionsLabel(
-        	to)
-}
-
-def static "simple.select2.Select2.removeOptions"(
-    	TestObject to	
-     , 	java.util.List<String> options	) {
-    (new simple.select2.Select2()).removeOptions(
-        	to
-         , 	options)
-}
-
-def static "simple.select2.Utils.clickOnSelect2"(
-    	TestObject to	) {
-    (new simple.select2.Utils()).clickOnSelect2(
-        	to)
-}
-
-def static "simple.select2.Utils.findContainer"(
-    	TestObject to	) {
-    (new simple.select2.Utils()).findContainer(
-        	to)
-}
-
-def static "simple.select2.Utils.selectResult"(
+def static "simple.Utils.selectResult"(
     	String option	
      , 	String subContainerOpenClass	) {
-    (new simple.select2.Utils()).selectResult(
+    (new simple.Utils()).selectResult(
         	option
          , 	subContainerOpenClass)
 }
 
-def static "simple.select2.Utils.enterText"(
+def static "simple.Utils.enterText"(
     	String option	) {
-    (new simple.select2.Utils()).enterText(
+    (new simple.Utils()).enterText(
         	option)
 }
 
-def static "simple.login.Login.loginIntoApplication"(
+def static "simple.Checkout.CheckoutShop"(
+    	String companyName	
+     , 	String optionText	
+     , 	String address	
+     , 	String city	
+     , 	String postCode	
+     , 	String Phone	) {
+    (new simple.Checkout()).CheckoutShop(
+        	companyName
+         , 	optionText
+         , 	address
+         , 	city
+         , 	postCode
+         , 	Phone)
+}
+
+def static "simple.Checkout.CheckoutShopWith"() {
+    (new simple.Checkout()).CheckoutShopWith()
+}
+
+def static "simple.Select2.selectOptionByLabel"(
+    	TestObject to	
+     , 	String option	) {
+    (new simple.Select2()).selectOptionByLabel(
+        	to
+         , 	option)
+}
+
+def static "simple.Select2.selectManyOptionsByLabel"(
+    	TestObject to	
+     , 	java.util.List<String> options	) {
+    (new simple.Select2()).selectManyOptionsByLabel(
+        	to
+         , 	options)
+}
+
+def static "simple.Select2.getSelectedOptionsLabel"(
+    	TestObject to	) {
+    (new simple.Select2()).getSelectedOptionsLabel(
+        	to)
+}
+
+def static "simple.Select2.getSelectedOptionsList"(
+    	TestObject to	) {
+    (new simple.Select2()).getSelectedOptionsList(
+        	to)
+}
+
+def static "simple.Select2.getAllOptionsLabel"(
+    	TestObject to	) {
+    (new simple.Select2()).getAllOptionsLabel(
+        	to)
+}
+
+def static "simple.Select2.removeOptions"(
+    	TestObject to	
+     , 	java.util.List<String> options	) {
+    (new simple.Select2()).removeOptions(
+        	to
+         , 	options)
+}
+
+def static "simple.Login.loginIntoApplication"(
     	String applicationURL	
      , 	String username	
      , 	String password	) {
-    (new simple.login.Login()).loginIntoApplication(
+    (new simple.Login()).loginIntoApplication(
         	applicationURL
          , 	username
          , 	password)
 }
 
-def static "simple.login.Login.loginIntoApplicationWith"() {
-    (new simple.login.Login()).loginIntoApplicationWith()
+def static "simple.Login.loginIntoApplicationWith"() {
+    (new simple.Login()).loginIntoApplicationWith()
 }
 
-def static "simple.login.Login.logoutFromApllication"() {
-    (new simple.login.Login()).logoutFromApllication()
+def static "simple.Login.logoutFromApplication"() {
+    (new simple.Login()).logoutFromApplication()
 }
 
-def static "simple.shop.Shop.addToCart"() {
-    (new simple.shop.Shop()).addToCart()
+def static "simple.Shop.addToCart"(
+    	String productName	
+     , 	String urlProduct	) {
+    (new simple.Shop()).addToCart(
+        	productName
+         , 	urlProduct)
+}
+
+def static "simple.Shop.addToCartWith"() {
+    (new simple.Shop()).addToCartWith()
 }
