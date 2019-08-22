@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Order a product and checkout</name>
+   <name>TC_Order many product and checkout</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>09a2e0dd-0e19-40d5-9769-5afa5972ebd5</testCaseGuid>

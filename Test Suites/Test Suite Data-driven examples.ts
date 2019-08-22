@@ -14,7 +14,7 @@
       <guid>c9c2b585-4594-41e1-aefa-ef640f098124</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Data-driven TC examples/TC_Order a product and checkout</testCaseId>
+      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Data-driven TC examples/TC_Order many product and checkout</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

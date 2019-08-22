@@ -52,4 +52,10 @@
          <variableId>5cb399d2-1bfc-408e-8254-a03dd003f568</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7714927a-116c-4835-ad29-a3843f7f8c49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword examples/TC_Order a product with coupon 50 percent</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

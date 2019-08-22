@@ -21,11 +21,16 @@ import internal.GlobalVariable
 import simple.Login
 
 public class Shop {
+
 	@Keyword
-	def static void addToCart(String productName,String urlProduct){
+	def static void navigatetoDetailPage(String productName,String urlProduct){
 		String temp = '/' + productName.replaceAll(" ", "-").toLowerCase()
 		String urlDetail = urlProduct + temp
 		WebUI.navigateToUrl(urlDetail)
+	}
+	@Keyword
+	def static void addToCart(String productName,String urlProduct){
+		navigatetoDetailPage(productName, urlProduct)
 
 		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
 		WebUI.click(findTestObject('Simple Object/Shop page/btnAddToCart'))
@@ -35,8 +40,30 @@ public class Shop {
 
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Simple Object/Shop page/btnProceed'), GlobalVariable.waitPresentTimeout)
 	}
+
+	@Keyword
+	def static void applyCouponAndAddToCart(String productName,String urlProduct,String coupon){
+		navigatetoDetailPage(productName, urlProduct)
+
+		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Simple Object/Shop page/btnAddToCart'))
+
+		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Simple Object/Shop page/lnkViewCart'))
+
+		WebUI.setText(findTestObject('Simple Object/Shop page/txtCoupon'), coupon)
+		WebUI.click(findTestObject('Simple Object/Shop page/btnApply'))
+		
+		BlockUIDismissed.WaitBlockUIDismissed()
+	}
+
 	@Keyword
 	def static void addToCartWithGlobalVariable(){
 		addToCart(GlobalVariable.productName,GlobalVariable.urlProduct)
+	}
+
+	@Keyword
+	def static void applyCouponAndAddToCartWithGlobalVariable(){
+		applyCouponAndAddToCart(GlobalVariable.productName, GlobalVariable.urlProduct, GlobalVariable.coupon)
 	}
 }

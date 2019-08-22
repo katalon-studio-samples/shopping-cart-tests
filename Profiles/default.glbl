@@ -84,4 +84,9 @@
       <initValue>'Flying Ninja'</initValue>
       <name>productName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'coupon50'</initValue>
+      <name>coupon</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
