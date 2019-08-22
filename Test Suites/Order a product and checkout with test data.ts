@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Order a product and checkout test suite with test data from xlsx files</name>
+   <name>Order a product and checkout with test data</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
       <guid>6b4b97a6-29c8-4b3f-ab03-19fb2018c5c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword examples/TC_Order a product and checkout</testCaseId>
+      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword examples/Order a product and checkout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bf5c235a-27fc-4f77-ae75-0c8802236dd4</id>

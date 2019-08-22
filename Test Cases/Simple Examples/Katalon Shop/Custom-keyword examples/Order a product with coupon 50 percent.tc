@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Order a product with coupon 50 percent</name>
+   <name>Order a product with coupon 50 percent</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>00fd7c05-77c6-4965-95b1-a1121dfdfdc1</testCaseGuid>
