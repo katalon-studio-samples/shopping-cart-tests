@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>shopping-cart-tests-attributes-customkeyword</name>
+   <name>shopping-cart-tests</name>
    <tag></tag>
    <UUID>4a8c792a-6693-417e-acc8-9a4a0b985f7c</UUID>
    <migratedVersion>5.9.0</migratedVersion>
