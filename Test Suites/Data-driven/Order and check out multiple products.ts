@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Order many product and checkout with test data on TC</name>
+   <name>Order and check out multiple products</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
       <guid>c9c2b585-4594-41e1-aefa-ef640f098124</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Data-driven TC examples/Order many product and checkout</testCaseId>
+      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Data-driven samples/Order and check out multiple products</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
