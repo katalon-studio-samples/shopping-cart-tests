@@ -27,6 +27,6 @@
       + In here,we call Custom Keyword in Test Case and parameters is Global Variable
     - How to run:
       + You double-click on TS you want to run -> Click on run button or Press the key combination Ctrl + Shift + A and observe result.
-4.Data Files
+4. Data Files
     - List Product: list of product you want to add to cart.
-    - Multiple Checkout : list information of user on Checkout page.
+    - Multiple Checkout : list information shipping of user on Checkout page.
