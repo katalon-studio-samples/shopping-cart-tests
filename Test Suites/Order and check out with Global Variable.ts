@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Order a product and checkout with Custom keyword</name>
+   <name>Order and check out with Global Variable</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
       <guid>b880213d-6def-49ca-abf4-fd658b9bd010</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword examples/Order a product and checkout</testCaseId>
+      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword samples/Order and check out a single product</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -56,6 +56,6 @@
       <guid>7714927a-116c-4835-ad29-a3843f7f8c49</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword examples/Order a product with coupon 50 percent</testCaseId>
+      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword samples/Order and check out a single product using coupon</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
