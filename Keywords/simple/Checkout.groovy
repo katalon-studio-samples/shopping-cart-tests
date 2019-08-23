@@ -43,8 +43,6 @@ public class Checkout {
 		WebUI.click(findTestObject('Simple Object/Checkout page/btnPlaceOrder'))
 
 		BlockUIDismissed.WaitBlockUIDismissed()
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Simple Object/Checkout page/elDetail'),  GlobalVariable.waitPresentTimeout)
 	}
 
 	@Keyword

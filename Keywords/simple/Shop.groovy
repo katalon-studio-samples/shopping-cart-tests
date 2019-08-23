@@ -31,7 +31,6 @@ public class Shop {
 	@Keyword
 	def static void addToCart(String productName,String urlProduct){
 		navigatetoDetailPage(productName, urlProduct)
-
 		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
 		WebUI.click(findTestObject('Simple Object/Shop page/btnAddToCart'))
 
@@ -44,6 +43,7 @@ public class Shop {
 	@Keyword
 	def static void applyCouponAndAddToCart(String productName,String urlProduct,String coupon){
 		navigatetoDetailPage(productName, urlProduct)
+		WebUI.delay(5)
 
 		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
 		WebUI.click(findTestObject('Simple Object/Shop page/btnAddToCart'))
@@ -53,7 +53,7 @@ public class Shop {
 
 		WebUI.setText(findTestObject('Simple Object/Shop page/txtCoupon'), coupon)
 		WebUI.click(findTestObject('Simple Object/Shop page/btnApply'))
-		
+
 		BlockUIDismissed.WaitBlockUIDismissed()
 	}
 
