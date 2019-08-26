@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnkViewCart</name>
+   <name>txtLastname</name>
    <tag></tag>
-   <elementGuidId>7871d97e-acd5-4e2d-9b05-289e2aac14e2</elementGuidId>
+   <elementGuidId>70b452a7-7519-46a0-8217-4a57d8d66f10</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = 'http://cms.demo.katalon.com/cart/']</value>
+         <value>//input[@name = 'billing_last_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>http://cms.demo.katalon.com/cart/</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>name</name>
       <type>Main</type>
-      <value>a</value>
+      <value>billing_last_name</value>
    </webElementProperties>
 </WebElementEntity>

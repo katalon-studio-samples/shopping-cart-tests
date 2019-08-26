@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'https://katalon-wordpress-demo.herokuapp.com/checkout/' and (text() = 'Checkout' or . = 'Checkout')]</value>
+         <value>//*[@href = 'http://cms.demo.katalon.com/checkout/' and (text() = 'Checkout' or . = 'Checkout')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://katalon-wordpress-demo.herokuapp.com/checkout/</value>
+      <value>http://cms.demo.katalon.com/checkout/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

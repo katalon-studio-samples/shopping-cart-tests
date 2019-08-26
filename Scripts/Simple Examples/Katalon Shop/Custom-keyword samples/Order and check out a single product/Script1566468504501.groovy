@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Simple Object/Shop page/lnkShop'))
 
 CustomKeywords.'simple.Shop.addToCartWithGlobalVariable'()
 
-CustomKeywords.'simple.Checkout.CheckoutShop'(companyName, country, address, city, postCode, Phone)
+CustomKeywords.'simple.Checkout.CheckoutShop'(firstName,lastName,companyName, country, address, city, postCode, Phone)
 
 CustomKeywords.'simple.Login.logoutFromApplication'()
 

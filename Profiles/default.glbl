@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://katalon-wordpress-demo.herokuapp.com/my-account'</initValue>
+      <initValue>'http://cms.demo.katalon.com/my-account'</initValue>
       <name>urlLogin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>3</initValue>
+      <initValue>5</initValue>
       <name>waitPresentTimeout</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://katalon-wordpress-demo.herokuapp.com'</initValue>
+      <initValue>'http://cms.demo.katalon.com'</initValue>
       <name>urlShop</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://katalon-wordpress-demo.herokuapp.com/product'</initValue>
+      <initValue>'http://cms.demo.katalon.com/product'</initValue>
       <name>urlProduct</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -86,7 +86,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'coupon50'</initValue>
+      <initValue>'FQZ5AC29'</initValue>
       <name>coupon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'katalon'</initValue>
+      <name>firstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'customer'</initValue>
+      <name>lastName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

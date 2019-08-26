@@ -19,9 +19,12 @@ import internal.GlobalVariable
 
 public class Checkout {
 	@Keyword
-	def static void CheckoutShop(String companyName,String country,String address,String city,String postCode,String Phone){
+	def static void CheckoutShop(String firstName,String lastName,String companyName,String country,String address,String city,String postCode,String Phone){
 		WebUI.click(findTestObject('Simple Object/Checkout page/lnkCheckout'))
 
+		WebUI.waitForElementVisible(findTestObject('Simple Object/Checkout page/txtFirstname'), GlobalVariable.waitPresentTimeout)
+		WebUI.setText(findTestObject('Simple Object/Checkout page/txtFirstname'), firstName)
+		WebUI.setText(findTestObject('Simple Object/Checkout page/txtLastname'), lastName)
 		WebUI.waitForElementVisible(findTestObject('Simple Object/Checkout page/inputCompanyName'), GlobalVariable.waitPresentTimeout)
 
 		WebUI.setText(findTestObject('Simple Object/Checkout page/inputCompanyName'), companyName)
@@ -47,6 +50,6 @@ public class Checkout {
 
 	@Keyword
 	def static void CheckoutShopWithGlobalVariable(){
-		CheckoutShop(GlobalVariable.companyName, GlobalVariable.country, GlobalVariable.address, GlobalVariable.city, GlobalVariable.postCode, GlobalVariable.Phone)
+		CheckoutShop(GlobalVariable.firstName,GlobalVariable.lastName,GlobalVariable.companyName, GlobalVariable.country, GlobalVariable.address, GlobalVariable.city, GlobalVariable.postCode, GlobalVariable.Phone)
 	}
 }

@@ -7,30 +7,23 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;post-82&quot;)/div[@class=&quot;entry-content&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;woocommerce-MyAccount-content&quot;]/p[1]/a[1]</value>
+         <value>//a[(text() = 'Logout' or . = 'Logout')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>https://katalon-wordpress-demo.herokuapp.com/my-account/customer-logout/?_wpnonce=aa6d1b7ae1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Log out</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>text</name>
       <type>Main</type>
-      <value>id(&quot;post-82&quot;)/div[@class=&quot;entry-content&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;woocommerce-MyAccount-content&quot;]/p[1]/a[1]</value>
+      <value>Logout</value>
    </webElementProperties>
 </WebElementEntity>

@@ -60,5 +60,17 @@
          <value>Phone</value>
          <variableId>5cb399d2-1bfc-408e-8254-a03dd003f568</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>bf5c235a-27fc-4f77-ae75-0c8802236dd4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstName</value>
+         <variableId>700d6e4e-307e-448a-aa19-8127c96f0056</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bf5c235a-27fc-4f77-ae75-0c8802236dd4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastName</value>
+         <variableId>8c0d16db-73f9-40b6-851f-f777b8bae206</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

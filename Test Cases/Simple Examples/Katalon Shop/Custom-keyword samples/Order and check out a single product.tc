@@ -6,6 +6,20 @@
    <comment></comment>
    <testCaseGuid>97bcb31c-8977-47a0-819e-5a33e6ab282e</testCaseGuid>
    <variable>
+      <defaultValue>GlobalVariable.firstName</defaultValue>
+      <description></description>
+      <id>700d6e4e-307e-448a-aa19-8127c96f0056</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.lastName</defaultValue>
+      <description></description>
+      <id>8c0d16db-73f9-40b6-851f-f777b8bae206</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
       <defaultValue>GlobalVariable.companyName</defaultValue>
       <description></description>
       <id>672fb4fd-4f00-452f-a8b4-62df3d124ffc</id>
