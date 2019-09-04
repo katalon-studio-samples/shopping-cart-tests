@@ -7,7 +7,7 @@
         - We definition these function re-use many times. Example: Login,Shop,Checkout...
         - Syntax of Custom keyword :
            @Keyword
-           def static {return type} {functinname}(parameters,parameters...){
+           def static {return type} {functionname}(parameters,parameters...){
               ...
            }
       + Data-driven
