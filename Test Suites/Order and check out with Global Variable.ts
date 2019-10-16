@@ -14,7 +14,7 @@
       <guid>b880213d-6def-49ca-abf4-fd658b9bd010</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword samples/Order and check out a single product</testCaseId>
+      <testCaseId>Test Cases/Custom-keyword samples/Order and check out a single product</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -68,6 +68,6 @@
       <guid>7714927a-116c-4835-ad29-a3843f7f8c49</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Custom-keyword samples/Order and check out a single product using coupon</testCaseId>
+      <testCaseId>Test Cases/Custom-keyword samples/Order and check out a single product using coupon</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

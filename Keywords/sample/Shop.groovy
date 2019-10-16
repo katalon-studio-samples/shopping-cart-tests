@@ -1,4 +1,4 @@
-package simple
+package sample
 
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -18,7 +18,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
-import simple.Login
 
 public class Shop {
 
@@ -31,13 +30,13 @@ public class Shop {
 	@Keyword
 	def static void addToCart(String productName,String urlProduct){
 		navigatetoDetailPage(productName, urlProduct)
-		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Simple Object/Shop page/btnAddToCart'))
+		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Pages/Shop page/btnAddToCart'))
 
-		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Simple Object/Shop page/lnkViewCart'))
+		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Pages/Shop page/lnkViewCart'))
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Simple Object/Shop page/btnProceed'), GlobalVariable.waitPresentTimeout)
+		WebUI.verifyElementPresent(findTestObject('Pages/Shop page/btnProceed'), GlobalVariable.waitPresentTimeout)
 	}
 
 	@Keyword
@@ -45,14 +44,14 @@ public class Shop {
 		navigatetoDetailPage(productName, urlProduct)
 		WebUI.delay(5)
 
-		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Simple Object/Shop page/btnAddToCart'))
+		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Pages/Shop page/btnAddToCart'))
 
-		WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
-		WebUI.click(findTestObject('Simple Object/Shop page/lnkViewCart'))
+		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Pages/Shop page/lnkViewCart'))
 
-		WebUI.setText(findTestObject('Simple Object/Shop page/txtCoupon'), coupon)
-		WebUI.click(findTestObject('Simple Object/Shop page/btnApply'))
+		WebUI.setText(findTestObject('Pages/Shop page/txtCoupon'), coupon)
+		WebUI.click(findTestObject('Pages/Shop page/btnApply'))
 
 		BlockUIDismissed.WaitBlockUIDismissed()
 	}

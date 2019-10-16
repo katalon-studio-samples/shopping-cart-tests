@@ -1,4 +1,4 @@
-package simple
+package sample
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,7 +20,7 @@ import internal.GlobalVariable
 
 public class BlockUIDismissed {
 	def static void WaitBlockUIDismissed(){
-		TestObject icoBlockUI = findTestObject('Simple Object/Checkout page/blockUI')
+		TestObject icoBlockUI = findTestObject('Pages/Checkout page/blockUI')
 		WebUI.waitForElementPresent(icoBlockUI,GlobalVariable.waitPresentTimeout)
 		WebUI.waitForElementNotPresent(icoBlockUI, GlobalVariable.uploadPlaceOrderTimeout)
 	}

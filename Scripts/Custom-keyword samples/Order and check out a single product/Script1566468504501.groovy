@@ -13,16 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'simple.Login.loginIntoApplicationWithGlobalVariable'()
+CustomKeywords.'sample.Login.loginIntoApplicationWithGlobalVariable'()
 
-WebUI.waitForElementPresent(findTestObject('Simple Object/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
+WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
 
-WebUI.click(findTestObject('Simple Object/Shop page/lnkShop'))
+WebUI.click(findTestObject('Pages/Shop page/lnkShop'))
 
-CustomKeywords.'simple.Shop.applyCouponAndAddToCartWithGlobalVariable'()
+CustomKeywords.'sample.Shop.addToCartWithGlobalVariable'()
 
-CustomKeywords.'simple.Checkout.CheckoutShopWithGlobalVariable'()
+CustomKeywords.'sample.Checkout.CheckoutShop'(firstName,lastName,companyName, country, address, city, postCode, Phone)
 
-CustomKeywords.'simple.Login.logoutFromApplication'()
+CustomKeywords.'sample.Login.logoutFromApplication'()
 
 WebUI.closeBrowser()

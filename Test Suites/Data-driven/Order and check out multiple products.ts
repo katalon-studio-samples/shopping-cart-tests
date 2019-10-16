@@ -14,7 +14,7 @@
       <guid>c9c2b585-4594-41e1-aefa-ef640f098124</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Katalon Shop/Data-driven samples/Order and check out multiple products</testCaseId>
+      <testCaseId>Test Cases/Data-driven samples/Order and check out multiple products</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

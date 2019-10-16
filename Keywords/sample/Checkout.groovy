@@ -1,4 +1,4 @@
-package simple
+package sample
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,30 +20,30 @@ import internal.GlobalVariable
 public class Checkout {
 	@Keyword
 	def static void CheckoutShop(String firstName,String lastName,String companyName,String country,String address,String city,String postCode,String Phone){
-		WebUI.click(findTestObject('Simple Object/Checkout page/lnkCheckout'))
+		WebUI.click(findTestObject('Pages/Checkout page/lnkCheckout'))
 
-		WebUI.waitForElementVisible(findTestObject('Simple Object/Checkout page/txtFirstname'), GlobalVariable.waitPresentTimeout)
-		WebUI.setText(findTestObject('Simple Object/Checkout page/txtFirstname'), firstName)
-		WebUI.setText(findTestObject('Simple Object/Checkout page/txtLastname'), lastName)
-		WebUI.waitForElementVisible(findTestObject('Simple Object/Checkout page/inputCompanyName'), GlobalVariable.waitPresentTimeout)
+		WebUI.waitForElementVisible(findTestObject('Pages/Checkout page/txtFirstname'), GlobalVariable.waitPresentTimeout)
+		WebUI.setText(findTestObject('Pages/Checkout page/txtFirstname'), firstName)
+		WebUI.setText(findTestObject('Pages/Checkout page/txtLastname'), lastName)
+		WebUI.waitForElementVisible(findTestObject('Pages/Checkout page/inputCompanyName'), GlobalVariable.waitPresentTimeout)
 
-		WebUI.setText(findTestObject('Simple Object/Checkout page/inputCompanyName'), companyName)
+		WebUI.setText(findTestObject('Pages/Checkout page/inputCompanyName'), companyName)
 
-		Select2.selectOptionByLabel(findTestObject('Object Repository/Simple Object/Select2/select_single'), country)
-		Select2.getAllOptionsLabel(findTestObject('Object Repository/Simple Object/Select2/select_single'))
-		Select2.getSelectedOptionsLabel(findTestObject('Object Repository/Simple Object/Select2/select_single'))
+		Select2.selectOptionByLabel(findTestObject('Select2/select_single'), country)
+		Select2.getAllOptionsLabel(findTestObject('Select2/select_single'))
+		Select2.getSelectedOptionsLabel(findTestObject('Select2/select_single'))
 
-		WebUI.setText(findTestObject('Simple Object/Checkout page/inputAddress'), address)
+		WebUI.setText(findTestObject('Pages/Checkout page/inputAddress'), address)
 
-		WebUI.setText(findTestObject('Simple Object/Checkout page/inputCity'), city)
+		WebUI.setText(findTestObject('Pages/Checkout page/inputCity'), city)
 
-		WebUI.setText(findTestObject('Simple Object/Checkout page/inputPostcode'), postCode)
+		WebUI.setText(findTestObject('Pages/Checkout page/inputPostcode'), postCode)
 
-		WebUI.setText(findTestObject('Simple Object/Checkout page/inputPhone'), Phone)
+		WebUI.setText(findTestObject('Pages/Checkout page/inputPhone'), Phone)
 
 		BlockUIDismissed.WaitBlockUIDismissed()
 
-		WebUI.click(findTestObject('Simple Object/Checkout page/btnPlaceOrder'))
+		WebUI.click(findTestObject('Pages/Checkout page/btnPlaceOrder'))
 
 		BlockUIDismissed.WaitBlockUIDismissed()
 	}

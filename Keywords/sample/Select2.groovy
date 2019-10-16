@@ -1,4 +1,4 @@
-package simple
+package sample
 
 
 import org.openqa.selenium.By
