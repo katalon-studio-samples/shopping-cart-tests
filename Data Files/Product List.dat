@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>List Product</name>
+   <name>Product List</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
