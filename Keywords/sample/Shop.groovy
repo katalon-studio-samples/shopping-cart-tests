@@ -52,8 +52,6 @@ public class Shop {
 
 		WebUI.setText(findTestObject('Pages/Shop page/txtCoupon'), coupon)
 		WebUI.click(findTestObject('Pages/Shop page/btnApply'))
-
-		BlockUIDismissed.WaitBlockUIDismissed()
 	}
 
 	@Keyword
