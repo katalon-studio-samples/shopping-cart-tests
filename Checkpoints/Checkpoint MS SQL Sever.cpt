@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint MS SQL Sever</name>
+   <tag></tag>
+   <db-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>jdbc:sqlserver://localhost:1434;databaseName=QL</source-url>
+      <source-type>DBData</source-type>
+      <is-using-global-db-setting>false</is-using-global-db-setting>
+      <is-secure-user-account>true</is-secure-user-account>
+      <user>HTKN</user>
+      <password>MTIzNDU2Nzg=</password>
+      <query><![CDATA[select * from LOP]]></query>
+      <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+   </db-source-info>
+   <taken-date>2020-04-03T15:44:06.297</taken-date>
+   <column-names>
+      <column-name>MALOP</column-name>
+      <column-name>TENLOP</column-name>
+      <column-name>MAKH</column-name>
+      <column-name>rowguid</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "15050301",
+      "checked": false
+    },
+    {
+      "value": "CNTT Khoa 10",
+      "checked": false
+    },
+    {
+      "value": "CNTT    ",
+      "checked": false
+    },
+    {
+      "value": "03C6F862-4277-E911-8ACD-5C5F67AC6187",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "15050302",
+      "checked": false
+    },
+    {
+      "value": "CNTT Khoa 9",
+      "checked": false
+    },
+    {
+      "value": "CNTT    ",
+      "checked": false
+    },
+    {
+      "value": "02C6F862-4277-E911-8ACD-5C5F67AC6187",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "15050303",
+      "checked": false
+    },
+    {
+      "value": "VT Khoa 9",
+      "checked": false
+    },
+    {
+      "value": "VT      ",
+      "checked": false
+    },
+    {
+      "value": "05C6F862-4277-E911-8ACD-5C5F67AC6187",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "15050310",
+      "checked": false
+    },
+    {
+      "value": "VT Khoa 10",
+      "checked": false
+    },
+    {
+      "value": "VT      ",
+      "checked": false
+    },
+    {
+      "value": "04C6F862-4277-E911-8ACD-5C5F67AC6187",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

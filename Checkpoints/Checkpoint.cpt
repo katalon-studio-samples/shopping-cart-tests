@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <db-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>jdbc:mysql://localhost:3306/lieulieu</source-url>
+      <source-type>DBData</source-type>
+      <is-using-global-db-setting>false</is-using-global-db-setting>
+      <is-secure-user-account>true</is-secure-user-account>
+      <user>root</user>
+      <password>dG9hbjEyMzQu</password>
+      <query><![CDATA[select * from test]]></query>
+      <driverClassName>org.mariadb.jdbc.Driver</driverClassName>
+   </db-source-info>
+   <taken-date>2020-04-03T15:18:20.05</taken-date>
+   <column-names>
+      <column-name>id</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": 10,
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": 11,
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": 12,
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>MS SQL Test Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>83e1a98b-a2db-45fe-9beb-945fa4ee8319</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>MTIzNDU2Nzg=</password>
+   <query>select * from SINHVIEN</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>HTKN</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
