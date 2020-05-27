@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'sample.Login.loginIntoApplicationWithGlobalVariable'()
 
-WebUI.waitForElementPresent(findTestObject('null'), GlobalVariable.waitPresentTimeout)
+WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Pages/Shop page/lnkShop'))
 
 CustomKeywords.'sample.Shop.applyCouponAndAddToCartWithGlobalVariable'()
 

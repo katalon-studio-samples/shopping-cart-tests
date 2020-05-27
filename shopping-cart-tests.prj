@@ -3,10 +3,10 @@
    <description></description>
    <name>shopping-cart-tests</name>
    <tag></tag>
-   <UUID>3036cd5a-3003-4767-92b5-9a340bd27ebf</UUID>
+   <UUID>052f4412-8190-4f05-b35a-5dd184aacaff</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\lieuhuynh\Katalon Studio\Testing\shopping-cart-tests.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\lieuhuynh\Katalon Studio\Shopping Cart Testing\shopping-cart-tests.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
