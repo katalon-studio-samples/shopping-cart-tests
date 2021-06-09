@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Our Top Picks</name>
+   <tag></tag>
+   <elementGuidId>8d0e03f2-1922-4bde-8a0a-68921091a920</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ajaxsrwrap']/div[3]/div/div/div/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.southwesthotels.com/searchresults.en-us.html?label=SWA-GSUBNAV-SPECIALOFFERS-HOTELS&amp;sid=512e58244dfdb8f61ccef1ee205a5864&amp;aid=961823&amp;sb=1&amp;src_elem=sb&amp;error_url=https%3A%2F%2Fwww.southwesthotels.com%2Fdealspage.en-us.html%3Faid%3D961823%3Blabel%3DSWA-GSUBNAV-SPECIALOFFERS-HOTELS%3Bsid%3D512e58244dfdb8f61ccef1ee205a5864%3Btmpl%3Ddeal_finder%3B&amp;order=popularity&amp;ss=San+Diego%2C+California%2C+United+States&amp;is_ski_area=0&amp;checkin_year=2021&amp;checkin_month=5&amp;checkin_monthday=7&amp;checkout_year=2021&amp;checkout_month=5&amp;checkout_monthday=8&amp;no_rooms=1&amp;group_adults=2&amp;group_children=0&amp;b_h4u_keep_filters=&amp;from_sf=1&amp;ss_raw=san+diego&amp;ac_position=0&amp;ac_langcode=en&amp;ac_click_type=b&amp;dest_id=20015725&amp;dest_type=city&amp;iata=SAN&amp;place_id_lat=32.712463&amp;place_id_lon=-117.161034&amp;search_pageview_id=00a37bf235e501dd&amp;search_selected=true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-type</name>
+      <type>Main</type>
+      <value>popularity</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_5235a97dfa </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Our Top Picks</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ajaxsrwrap&quot;)/div[3]/div[1]/div[@class=&quot;bui-provider&quot;]/div[@class=&quot;_23594f0903 a4c9474e78 _2c87a656a7&quot;]/ul[@class=&quot;_6f8843b884&quot;]/li[@class=&quot;_7f6b945df3&quot;]/a[@class=&quot;_5235a97dfa&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ajaxsrwrap']/div[3]/div/div/div/ul/li/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Our Top Picks')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show on map'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='San Diego: 191 properties found'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entire homes &amp; apartments'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price (lowest first)'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Our Top Picks']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.southwesthotels.com/searchresults.en-us.html?label=SWA-GSUBNAV-SPECIALOFFERS-HOTELS&amp;sid=512e58244dfdb8f61ccef1ee205a5864&amp;aid=961823&amp;sb=1&amp;src_elem=sb&amp;error_url=https%3A%2F%2Fwww.southwesthotels.com%2Fdealspage.en-us.html%3Faid%3D961823%3Blabel%3DSWA-GSUBNAV-SPECIALOFFERS-HOTELS%3Bsid%3D512e58244dfdb8f61ccef1ee205a5864%3Btmpl%3Ddeal_finder%3B&amp;order=popularity&amp;ss=San+Diego%2C+California%2C+United+States&amp;is_ski_area=0&amp;checkin_year=2021&amp;checkin_month=5&amp;checkin_monthday=7&amp;checkout_year=2021&amp;checkout_month=5&amp;checkout_monthday=8&amp;no_rooms=1&amp;group_adults=2&amp;group_children=0&amp;b_h4u_keep_filters=&amp;from_sf=1&amp;ss_raw=san+diego&amp;ac_position=0&amp;ac_langcode=en&amp;ac_click_type=b&amp;dest_id=20015725&amp;dest_type=city&amp;iata=SAN&amp;place_id_lat=32.712463&amp;place_id_lon=-117.161034&amp;search_pageview_id=00a37bf235e501dd&amp;search_selected=true')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/ul/li/a</value>
+   </webElementXpaths>
+</WebElementEntity>

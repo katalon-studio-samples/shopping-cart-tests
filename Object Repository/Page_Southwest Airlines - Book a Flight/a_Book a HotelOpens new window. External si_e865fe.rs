@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Book a HotelOpens new window. External si_e865fe</name>
+   <tag></tag>
+   <elementGuidId>a3ec2c84-ef03-4e47-a425-30b5f7c3a237</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='FlyoutTrigger_5']/div/div/div/div/div/div/ul[2]/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.link-column.link-column_primary.header-flyout--column > li.link-column--link > a.actionable.actionable_link.actionable_external-link.actionable_suffix.actionable_dark.link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.southwesthotels.com/index.html?label=SWA-GSUBNAV-HOTEL-BOOK&amp;clk=GSUBNAV-HOTEL-BOOK</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>actionable actionable_link actionable_external-link actionable_suffix actionable_dark link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Book a Hotel Opens new window. External site which may or may not meet accessibility guidelines.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FlyoutTrigger_5&quot;)/div[@class=&quot;overlay-container--content-wrapper&quot;]/div[@class=&quot;overlay-container--content&quot;]/div[@class=&quot;overlay-container--flyout-content&quot;]/div[@class=&quot;header-flyout&quot;]/div[@class=&quot;header-flyout--content-section&quot;]/div[1]/ul[@class=&quot;link-column link-column_primary header-flyout--column&quot;]/li[@class=&quot;link-column--link&quot;]/a[@class=&quot;actionable actionable_link actionable_external-link actionable_suffix actionable_dark link&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FlyoutTrigger_5']/div/div/div/div/div/div/ul[2]/li[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotel'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.southwesthotels.com/index.html?label=SWA-GSUBNAV-HOTEL-BOOK&amp;clk=GSUBNAV-HOTEL-BOOK')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div/div/div/ul[2]/li[2]/a</value>
+   </webElementXpaths>
+</WebElementEntity>

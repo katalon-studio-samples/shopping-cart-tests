@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Depart Date_swa-icon--icon</name>
+   <tag></tag>
+   <elementGuidId>5fd03cb3-98b0-4187-b947-396658328ffd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.swa-icon.input--icon.swa-icon_calendar > span.swa-icon--icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swa-content']/div/div[2]/div/div/section/div[2]/div[2]/div/form/div[2]/div[2]/label/div/div/div/div/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swa-icon--icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swa-content&quot;)/div[1]/div[2]/div[1]/div[@class=&quot;container container_full-screen plan-trip air-booking-index-page&quot;]/section[@class=&quot;section&quot;]/div[@class=&quot;background&quot;]/div[@class=&quot;container container_standard&quot;]/div[@class=&quot;form-container trip--form-container&quot;]/form[@class=&quot;form air-check-fares-form air-check-fares-form_expanded-size&quot;]/div[@class=&quot;date-input-group&quot;]/div[@class=&quot;form-control form-control_secondary form-control_small&quot;]/label[1]/div[1]/div[@class=&quot;flyout-trigger date-input&quot;]/div[@class=&quot;input input_icon input_left input_secondary&quot;]/div[@class=&quot;input--icon-separator&quot;]/span[@class=&quot;swa-icon input--icon swa-icon_calendar&quot;]/span[@class=&quot;swa-icon--icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='swa-content']/div/div[2]/div/div/section/div[2]/div[2]/div/form/div[2]/div[2]/label/div/div/div/div/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div/div/div/div/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>
