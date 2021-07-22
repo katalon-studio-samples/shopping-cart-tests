@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//a[@href = 'http://cms.demo.katalon.com/cart/']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href = 'https://cms.demo.katalon.com/cart/']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
