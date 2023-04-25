@@ -12,7 +12,7 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       class: "btn btn-dark btn-lg",
     },
     childIndex: 4,
-    hashes: { "md5.v1": "3caec008087ccb7a1cb3fc698fbf83c2" },
+    hashes: {},
     name: "a - Make Appointment",
     selectors: [
       {
@@ -24,7 +24,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "cfcd51f2-1b86-4785-8e47-3131b7361b7f",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -32,8 +31,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "a",
     text: "Make Appointment",
     pageUrl: "https://katalon-demo-cura.herokuapp.com/",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.click({
     type: "Web",
@@ -48,7 +45,7 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       autocomplete: "off",
     },
     childIndex: 1,
-    hashes: { "md5.v1": "57f176ba19cb19cc93acaba2dbde6b10" },
+    hashes: {},
     name: "input - Username",
     selectors: [
       {
@@ -60,7 +57,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "c76009cb-25db-4da9-90dc-836bbd74894b",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -68,8 +64,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "input",
     text: "",
     pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.click({
     type: "Web",
@@ -84,7 +78,7 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       autocomplete: "off",
     },
     childIndex: 1,
-    hashes: { "md5.v1": "fe634c654141065106a978262a410740" },
+    hashes: {},
     name: "input - Password",
     selectors: [
       {
@@ -96,7 +90,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "9900c394-603d-4fb6-af1a-92a42ee70ebc",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -104,36 +97,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "input",
     text: "",
     pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
-    parentIframe: null,
-    shadowRoot: null,
-  });
-  await web.click({
-    type: "Web",
-    id: "c77755bc-7653-4ecb-8b77-05c65f1e5994",
-    attributes: { id: "btn-login", type: "submit", class: "btn btn-default" },
-    childIndex: 1,
-    hashes: { "md5.v1": "50aa64147a00037c420def1e18673ac9" },
-    name: "button - Login",
-    selectors: [
-      {
-        id: "1effa598-fa62-44e2-85cf-c943fa1e88a5",
-        type: "CSS",
-        value: "#btn-login",
-        isDefault: true,
-      },
-      {
-        id: "94962d03-4904-4e33-bc0a-77adafe9b827",
-        type: "Attribute",
-        value: null,
-        isDefault: true,
-      },
-    ],
-    selectorType: "CSS",
-    tag: "button",
-    text: "Login",
-    pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.closeBrowser();
 });
