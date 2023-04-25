@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <TestSuiteEntity>
     <name>1st Test Suite</name>
-    <testSuiteGuid>a794df28-2972-43c3-be9b-a51240fcc7e0</testSuiteGuid>
+    <testSuiteGuid>85a6d415-f33c-4cbc-9d87-e7b2b445998a</testSuiteGuid>
     <testCaseLink>
         <testCaseId>test-cases/wintest/New test case</testCaseId>
-        <guid>b8c585fe-12ba-44f0-adbc-9f003e157f86</guid>
-    </testCaseLink>
-    <testCaseLink>
-        <testCaseId>test-cases/wintest/New test case - 1</testCaseId>
-        <guid>cb97ad5b-5e18-4265-901b-a3fffd35ae01</guid>
+        <guid>14633834-71c6-4996-b72d-abb6d66f6e14</guid>
     </testCaseLink>
     <testCaseLink>
         <testCaseId>test-cases/test-folder/1st CS test case</testCaseId>
-        <guid>af25a660-2fe1-4c5a-8152-c89fae99b7dc</guid>
+        <guid>84639ee8-eae9-4d21-989f-63f0c040dde2</guid>
     </testCaseLink>
 </TestSuiteEntity>
