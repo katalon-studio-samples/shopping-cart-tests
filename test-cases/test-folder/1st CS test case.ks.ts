@@ -123,30 +123,5 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     text: "Login",
     pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
   });
-  await web.click({
-    type: "Web",
-    id: "bee8ed04-7d87-4cb4-b523-aeb22f7471de",
-    attributes: { class: "lead text-danger" },
-    childIndex: 3,
-    hashes: {},
-    name: "p - Login failed! Please ensure the username and password are valid.",
-    selectors: [
-      {
-        id: "8405559e-abb4-49b3-9deb-fb5c128e1ff7",
-        type: "CSS",
-        value: ".lead.text-danger",
-        isDefault: true,
-      },
-      {
-        id: "bae62eb6-a0f2-4c73-a034-371d5726e2f5",
-        type: "Attribute",
-        isDefault: true,
-      },
-    ],
-    selectorType: "CSS",
-    tag: "p",
-    text: "Login failed! Please ensure the username and password are valid.",
-    pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
-  });
   await web.closeBrowser();
 });
