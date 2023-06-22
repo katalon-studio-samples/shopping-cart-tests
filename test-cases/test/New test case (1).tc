@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<TestCaseEntity>
-    <executionType>TS</executionType>
-    <type>ks</type>
-    <description></description>
-    <tag></tag>
-    <comment></comment>
-    <name>New test case (1)</name>
-</TestCaseEntity>
