@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TestCaseEntity>
+    <executionType>TS</executionType>
+    <type>ks</type>
+    <description></description>
+    <tag></tag>
+    <comment></comment>
+    <name>cotys_first_test_case</name>
+</TestCaseEntity>
