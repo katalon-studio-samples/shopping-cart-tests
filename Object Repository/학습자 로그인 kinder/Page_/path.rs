@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>af8bb0a5-19e1-4d57-9613-7daebdc78a12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.absolute.right-0.z-10.w-10.h-10.-top-12.text-gray > svg > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>8edd527e-31cb-4de1-bb7c-72029eccc564</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M14.4444 25.5555L25.5556 14.4444M14.4444 14.4444L25.5556 25.5555</value>
+      <webElementGuid>b21f862d-c504-45b0-ba2b-ab9dc74d589d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>white</value>
+      <webElementGuid>0d349844-4292-422a-bc50-5c5ff04a5fcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>2c238c55-7253-4229-9fb3-94c6e7e2e489</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linecap</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>e43f4a67-4867-4ce9-991b-4be8464813bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linejoin</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>004d1c38-cc97-43cc-9cd8-05c28cd3cdfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headlessui-dialog-panel-:r9:&quot;)/button[@class=&quot;absolute right-0 z-10 w-10 h-10 -top-12 text-gray&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>65e1ba5d-a5f5-4e9e-81d3-a48d8adb7b26</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

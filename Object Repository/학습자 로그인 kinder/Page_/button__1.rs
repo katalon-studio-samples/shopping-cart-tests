@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__1</name>
+   <tag></tag>
+   <elementGuidId>26196105-34ef-4bab-bf19-0009c097f731</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/ul/li[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>10d6c424-c40b-4618-9e5b-77e89cdb53e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute z-10 flex items-center justify-center w-24 h-10 text-white rounded-full  right-6 top-6 bg-lightBlue</value>
+      <webElementGuid>3ff3d115-c801-4259-a982-a5c4a8ac402e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>게임시작</value>
+      <webElementGuid>d4dd1891-707d-4eea-96cc-d09b4e1db322</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;block min-h-[calc(100vh-152px)] h-full -mt-4 overflow-auto bg-white rounded-t-2xl pt-6&quot;]/div[@class=&quot;relative h-full flex gap-6 px-6 max-w-[1200px] mx-auto pb-16&quot;]/ul[@class=&quot;w-full p-6 bg-gray-100 rounded-2xl&quot;]/li[@class=&quot;relative flex gap-6 p-6 mb-6 bg-white shadow-lg rounded-2xl&quot;]/button[@class=&quot;absolute z-10 flex items-center justify-center w-24 h-10 text-white rounded-full  right-6 top-6 bg-lightBlue&quot;]</value>
+      <webElementGuid>525e2c2e-3e91-49f9-8e60-8a18e7478d83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/ul/li[2]/button</value>
+      <webElementGuid>977ce9f6-2b45-4b33-9938-badcca054b48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/button</value>
+      <webElementGuid>1a565dde-e65f-4951-9cbf-1531f25db844</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '게임시작' or . = '게임시작')]</value>
+      <webElementGuid>5b74ceca-39ef-4b07-89cd-17371ef473c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

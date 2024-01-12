@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_flex items-center justify-center fle_a97ba1</name>
+   <tag></tag>
+   <elementGuidId>8ac3ba8a-0685-4dca-8a55-419d26c61c01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.flex.items-center.justify-center.flex-shrink-0.w-12.h-12.text-white.shadow-md.bg-orange.rounded-2xl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e2dea7b3-8559-49ea-9d12-550f3cd28db6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-center flex-shrink-0 w-12 h-12 text-white shadow-md bg-orange rounded-2xl</value>
+      <webElementGuid>a9cdeff3-8ef8-4386-926f-4470e919feda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;bg-yellow&quot;]/div[@class=&quot;max-w-[1200px] flex items-center w-full h-24 gap-4 p-6 mx-auto&quot;]/button[@class=&quot;flex items-center justify-center flex-shrink-0 w-12 h-12 text-white shadow-md bg-orange rounded-2xl&quot;]</value>
+      <webElementGuid>d81eddd6-09ce-465b-a78a-3735eebc0c2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/button</value>
+      <webElementGuid>36c2d4ce-2a1e-42c9-814a-2132f17c6416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>55b45646-bb92-4d3d-8b93-2b18207a0f0e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

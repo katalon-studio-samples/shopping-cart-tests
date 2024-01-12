@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>4ca5dca8-7f95-44ef-8eba-c8cd0bdbbe2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/div/div/div/span[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.notice-text > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>874a7172-24e1-4e89-9b53-c4abcf80e830</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>아이디를 입력해주세요.</value>
+      <webElementGuid>5981cc17-32cb-41c6-ae2f-a6ddc0049d31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;content brand is-desktop&quot;]/div[@class=&quot;login new&quot;]/div[@class=&quot;loginwrap&quot;]/div[@class=&quot;login-submit&quot;]/div[@class=&quot;login-inner&quot;]/div[@class=&quot;login-box&quot;]/div[@class=&quot;inputwrap-id is-false&quot;]/span[@class=&quot;notice-text&quot;]/span[1]</value>
+      <webElementGuid>53156627-8432-43e1-b5c9-257c6b1b4596</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/span[2]/span</value>
+      <webElementGuid>0259073a-9228-4d31-8b75-793d31d66248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/span</value>
+      <webElementGuid>084f37af-7f81-411b-8aa3-a6f54a84b06b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '아이디를 입력해주세요.' or . = '아이디를 입력해주세요.')]</value>
+      <webElementGuid>17e9b1aa-954c-45b5-b2df-c9d3bd11b9a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

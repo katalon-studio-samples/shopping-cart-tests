@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__1_2_3</name>
+   <tag></tag>
+   <elementGuidId>62076a20-6d24-4559-b303-282256cea6bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='headlessui-dialog-panel-:r6:']/div[2]/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d7a16873-d321-42d1-9fd9-13811c77354c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>lightBlue</value>
+      <webElementGuid>6c560a7b-c1cc-4ef2-bf1f-1937d541314d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>-mt-2 text-white text-body-1 font-bold rounded-2xl transition-all duration-150
+        active:translate-y-1
+        active:[box-shadow:0_0px_0_0_#1b6ff8,0_0px_0_0_#1b70f841] 
+         bg-lightBlue [box-shadow:0px_4px_0px_#2E96CE,0px_8px_0px_rgba(0,0,0,0.2)] px-4 py-2 min-w-[120px]</value>
+      <webElementGuid>5a246c08-d7b0-482e-898a-a0ad0361becd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>아니오</value>
+      <webElementGuid>be0663c5-8673-4543-8b89-d5dbd7351ed4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headlessui-dialog-panel-:r6:&quot;)/div[@class=&quot;flex items-center justify-center gap-4 pt-10 mt-auto&quot;]/button[@class=&quot;-mt-2 text-white text-body-1 font-bold rounded-2xl transition-all duration-150
+        active:translate-y-1
+        active:[box-shadow:0_0px_0_0_#1b6ff8,0_0px_0_0_#1b70f841] 
+         bg-lightBlue [box-shadow:0px_4px_0px_#2E96CE,0px_8px_0px_rgba(0,0,0,0.2)] px-4 py-2 min-w-[120px]&quot;]</value>
+      <webElementGuid>97b4b1c8-4e9c-466d-8de0-5bc745cc0376</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='headlessui-dialog-panel-:r6:']/div[2]/button[2]</value>
+      <webElementGuid>2b5f10d4-58d0-4fef-82ba-b12f5b939c5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/button[2]</value>
+      <webElementGuid>806f87c1-6588-444f-9775-697928dd9aac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '아니오' or . = '아니오')]</value>
+      <webElementGuid>9eea45a9-2c5a-4b1d-8467-664b711f0d37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

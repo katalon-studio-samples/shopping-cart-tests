@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_absolute w-12 h-12 text-white rounde_f22d10</name>
+   <tag></tag>
+   <elementGuidId>d9b8d1ab-96a0-4f0d-a1ff-a27546552e8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>33916dfe-6f65-41df-a51e-f96411510ae5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute w-12 h-12 text-white rounded-full bg-black/30 top-6 right-6</value>
+      <webElementGuid>2f286152-5a8f-4362-bbcf-da81a7402170</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative min-h-screen overflow-auto bg-[#CDF9EE]&quot;]/button[@class=&quot;absolute w-12 h-12 text-white rounded-full bg-black/30 top-6 right-6&quot;]</value>
+      <webElementGuid>a8aff07e-506b-4efa-a460-dd72eb403f8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/button</value>
+      <webElementGuid>894aaaa6-f4fe-4508-ae3b-919394e16fe1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>f7f5945e-9058-4cb5-aea3-16d81ac9976b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

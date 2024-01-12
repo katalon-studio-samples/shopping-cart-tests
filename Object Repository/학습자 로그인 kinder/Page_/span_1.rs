@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1</name>
+   <tag></tag>
+   <elementGuidId>32875bac-ea5e-4400-ac24-eaa28c1a51f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[3]/div[2]/div[3]/ul/li/div/button/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1b405416-4112-4df8-a01b-79e90b3be219</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-[74px] h-[70px] rounded-b-3xl flex flex-col items-center justify-center text-headline-2 text-white bg-lightBlue-900 [box-shadow:inset_0_-2px_0_0_#99DBFF] group-hover:bg-lightBlue-600</value>
+      <webElementGuid>895382a5-bbfd-4dcc-b7c0-747a06bd9708</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>5fe4d0ed-2c8a-4511-9974-2228a9e23aea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative h-screen overflow-hidden bg-[#CDF9EE]&quot;]/div[@class=&quot;relative flex items-center h-full pl-6 overflow-x-auto min-w-screen scrollbar-hide&quot;]/div[@class=&quot;relative min-w-[2256px] h-[633px] flex-shrink-0&quot;]/div[@class=&quot;absolute z-10 left-[80px] bottom-[170px] max-w-[calc(2160px-160px)] w-full&quot;]/ul[@class=&quot;flex items-center justify-between w-full&quot;]/li[@class=&quot;flex flex-col items-center&quot;]/div[@class=&quot;flex items-end h-[86px] relative&quot;]/button[@class=&quot;group w-20 border-3 flex overflow-hidden justify-center items-start rounded-3xl cursor-pointer select-none active:translate-y-1 transition-all duration-150 [box-shadow:0_6px_0_rgba(0,0,0,0.1)] active:[box-shadow:unset] active:h-[76px] h-[86px] border-black/40&quot;]/div[@class=&quot;h-[80px]  bg-lightBlue-dark group-hover:bg-lightBlue-900&quot;]/span[@class=&quot;w-[74px] h-[70px] rounded-b-3xl flex flex-col items-center justify-center text-headline-2 text-white bg-lightBlue-900 [box-shadow:inset_0_-2px_0_0_#99DBFF] group-hover:bg-lightBlue-600&quot;]</value>
+      <webElementGuid>09a63591-1d77-4a88-b06b-f9f8f81e1842</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[3]/div[2]/div[3]/ul/li/div/button/div/span</value>
+      <webElementGuid>b16ccb4a-ab71-45a3-aca0-c7c9ea05c49f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>bb17784e-2bd8-4440-b075-831078a56516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '1' or . = '1')]</value>
+      <webElementGuid>71813aea-56e8-443a-8976-0cab2bd7faa9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

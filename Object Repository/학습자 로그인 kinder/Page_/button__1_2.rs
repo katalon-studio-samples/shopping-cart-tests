@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__1_2</name>
+   <tag></tag>
+   <elementGuidId>c357ebb6-0383-48bf-9167-67306840fd7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/div/div[2]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d47a7e7c-922c-4d07-8757-9df0d2bfc65b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-body-1 text-white font-bold rounded-2xl transition-all duration-150 active:translate-y-1 active:[box-shadow:0_0px_0_0_#1b6ff8,0_0px_0_0_#1b70f841] bg-orange [box-shadow:0px_4px_0px_#E88A1C,0px_8px_0px_rgba(0,0,0,0.2)] px-8 py-3 min-w-[160px] relative z-10 mt-14</value>
+      <webElementGuid>86148154-2530-49dc-a072-7e7bdf8b7eb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>챕터 바로가기</value>
+      <webElementGuid>f4cdbfe2-7039-43b0-9052-9a4bf2adff47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;w-full min-h-screen bg-[#F2F8FD] flex pb-[160px] md:pb-[120px]&quot;]/div[@class=&quot;relative max-w-[1200px] bg-[#F2F8FD] flex flex-col gap-4 md:gap-0 md:flex-row pt-24 w-full mx-auto px-6&quot;]/div[@class=&quot;flex-shrink-0 mr-6 w-full md:w-[400px] h-[320px] md:h-[564px] bg-[#F2F8FD] rounded-2xl overflow-hidden&quot;]/div[@class=&quot;relative w-full h-full overflow-hidden rounded-2xl bg-[#89E5CB]&quot;]/div[@class=&quot;relative h-40 px-8 text-left bg-white md:mx-0 md:text-center md:h-80&quot;]/div[@class=&quot;relative -top-14&quot;]/button[@class=&quot;text-body-1 text-white font-bold rounded-2xl transition-all duration-150 active:translate-y-1 active:[box-shadow:0_0px_0_0_#1b6ff8,0_0px_0_0_#1b70f841] bg-orange [box-shadow:0px_4px_0px_#E88A1C,0px_8px_0px_rgba(0,0,0,0.2)] px-8 py-3 min-w-[160px] relative z-10 mt-14&quot;]</value>
+      <webElementGuid>f4b74741-bb2d-4607-86e2-690c2f27e9bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div/div[2]/div/button</value>
+      <webElementGuid>9282c009-62e6-4380-adf5-b33440edd94b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>13e6e226-2170-49f2-8dda-b2e308c2cd2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '챕터 바로가기' or . = '챕터 바로가기')]</value>
+      <webElementGuid>33ff220d-fbb8-49e6-bb53-bcbef2178e69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

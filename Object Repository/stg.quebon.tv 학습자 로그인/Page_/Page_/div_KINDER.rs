@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_KINDER</name>
+   <tag></tag>
+   <elementGuidId>dbbe2711-b3e0-4151-9fcb-10bfd5743e48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6ea0a5b4-2669-4587-9cdd-2ace3e91fc2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-box </value>
+      <webElementGuid>1cb5d3d6-a42f-40b8-a773-e64f4c522179</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>아이디를 입력해주세요.학습을 시작할 수 있어요!비밀번호를 확인해주세요학습을 시작할 수 있어요!계정 찾기비밀번호 찾기로그인 KINDER 학습사이트네이버로 로그인카카오로 로그인</value>
+      <webElementGuid>1740fedd-bbc1-4832-864f-429eaf1285bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;content brand is-desktop&quot;]/div[@class=&quot;login new&quot;]/div[@class=&quot;loginwrap&quot;]/div[@class=&quot;login-submit&quot;]/div[@class=&quot;login-inner&quot;]/div[@class=&quot;login-box&quot;]</value>
+      <webElementGuid>c7f9df7f-d94a-4c6d-a5b3-85c51019386a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div</value>
+      <webElementGuid>2f4b25c5-ae19-4494-be61-d5a155549c40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div</value>
+      <webElementGuid>397460d5-0cc5-47a2-8ad9-af4d52cf0312</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '아이디를 입력해주세요.학습을 시작할 수 있어요!비밀번호를 확인해주세요학습을 시작할 수 있어요!계정 찾기비밀번호 찾기로그인 KINDER 학습사이트네이버로 로그인카카오로 로그인' or . = '아이디를 입력해주세요.학습을 시작할 수 있어요!비밀번호를 확인해주세요학습을 시작할 수 있어요!계정 찾기비밀번호 찾기로그인 KINDER 학습사이트네이버로 로그인카카오로 로그인')]</value>
+      <webElementGuid>bb28680c-6c9f-4a92-b1ce-3d4061d2ef2c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

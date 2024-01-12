@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_</name>
+   <tag></tag>
+   <elementGuidId>761073f4-90f7-4838-b190-69908e00e906</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[3]/div/form/div[3]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>523de162-9471-41c6-9d92-c5d49d89485c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full text-white text-body-1 font-bold rounded-2xl transition-all duration-150
+        active:translate-y-1
+        active:[box-shadow:0_0px_0_0_#1b6ff8,0_0px_0_0_#1b70f841] 
+         bg-orange [box-shadow:0px_4px_0px_#E88A1C,0px_8px_0px_rgba(0,0,0,0.2)] px-8 py-3 min-w-[160px]</value>
+      <webElementGuid>8adc0145-771c-4f9c-b1ae-890103112505</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>로그인</value>
+      <webElementGuid>4fdeba0c-aee4-408f-b687-ea6fc89a191e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;w-full h-full min-h-screen bg-[#F2F8FD] flex items-center justify-center&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;flex z-10 h-[560px] relative bg-white flex-col items-center rounded-2xl pt-12 px-16 pb-8 [box-shadow:0px_4px_0px_rgba(0,0,0,0.1),inset_0px_-4px_0px_rgba(0,0,0,0.1)]&quot;]/div[@class=&quot;mt-12&quot;]/form[1]/div[@class=&quot;mt-12&quot;]/button[@class=&quot;w-full text-white text-body-1 font-bold rounded-2xl transition-all duration-150
+        active:translate-y-1
+        active:[box-shadow:0_0px_0_0_#1b6ff8,0_0px_0_0_#1b70f841] 
+         bg-orange [box-shadow:0px_4px_0px_#E88A1C,0px_8px_0px_rgba(0,0,0,0.2)] px-8 py-3 min-w-[160px]&quot;]</value>
+      <webElementGuid>4ac98d9f-80bd-4784-b351-8da5a99d4899</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[3]/div/form/div[3]/button</value>
+      <webElementGuid>6b1dcfa9-a728-4093-aaa9-7b86ef5b7cd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>7cb147b2-2130-47ff-a6fa-916bf7d65a93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '로그인' or . = '로그인')]</value>
+      <webElementGuid>6009efec-c386-4e6f-9a2d-7b9ac5c49d95</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

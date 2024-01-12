@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_25</name>
+   <tag></tag>
+   <elementGuidId>a099d735-3415-42a7-bfcd-2d52ae1d3dda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[4]/div/swiper-container/swiper-slide[3]/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>523aa156-feb3-41a5-8e6b-f39d95c0c17c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-1 font-bold text-body-1 text-orange-900</value>
+      <webElementGuid>09f3ad1e-ce51-4409-a819-afa9e56fd6de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+25</value>
+      <webElementGuid>dada1acd-fd15-4cbb-ab45-0398c770a61f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative min-h-screen overflow-auto bg-[#CDF9EE]&quot;]/div[@class=&quot;relative flex justify-center px-6 mt-10&quot;]/div[@class=&quot;relative flex justify-center w-full&quot;]/swiper-container[@class=&quot;unit-swiper swiper-initialized swiper-horizontal swiper-backface-hidden&quot;]/swiper-slide[3]/div[@class=&quot;pt-4&quot;]/div[@class=&quot;group relative h-64 w-[208px] mt-1 mb-2 cursor-pointer bg-white flex-inline mx-auto min-w-52 p-6 rounded-2xl animate-floatCard&quot;]/div[@class=&quot;flex items-center gap-1 font-bold text-body-1 text-orange-900&quot;]</value>
+      <webElementGuid>0e2354de-1b13-47f5-8389-9d6492244ee3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/swiper-container/swiper-slide[3]/div/div/div[3]</value>
+      <webElementGuid>87065a0b-32e3-4ece-96bb-4d4d86d63661</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//swiper-slide[3]/div/div/div[3]</value>
+      <webElementGuid>002082f2-94d0-45e2-be2c-34f6b9cf2a28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '+25' or . = '+25')]</value>
+      <webElementGuid>4d76c335-de40-4328-9d06-a7a72627e582</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_flex items-center justify-center fle_a97ba1_1</name>
+   <tag></tag>
+   <elementGuidId>5fb04dd9-a876-44d4-85bd-0649124c6bd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.flex.items-center.justify-center.flex-shrink-0.w-12.h-12.text-white.shadow-md.bg-orange.rounded-2xl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b76e8cc8-99f1-4e00-86be-e77ef990f8f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-center flex-shrink-0 w-12 h-12 text-white shadow-md bg-orange rounded-2xl</value>
+      <webElementGuid>03d29550-867d-4e92-b6ca-bc5061ee6a31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;bg-purple&quot;]/div[@class=&quot;max-w-[1200px] flex items-center w-full h-24 gap-4 p-6 mx-auto&quot;]/button[@class=&quot;flex items-center justify-center flex-shrink-0 w-12 h-12 text-white shadow-md bg-orange rounded-2xl&quot;]</value>
+      <webElementGuid>f61167e1-56c2-496c-9c73-29d8ba20c8ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/button</value>
+      <webElementGuid>ed225c66-23c4-4237-9a9a-ad88bf752907</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>3bae4024-d739-49f1-a5b3-686b1bbcc031</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

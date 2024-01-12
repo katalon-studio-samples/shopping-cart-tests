@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__1</name>
+   <tag></tag>
+   <elementGuidId>9cac3601-384e-4ad2-b8bf-438243f4a599</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/div/div/div[2]/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.inputwrap-pw.is-false > span.notice-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>70440b62-b4b7-476e-ae24-73d1d548b517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>notice-text</value>
+      <webElementGuid>17936739-6bb0-4641-8ccb-4c67e02b07f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>비밀번호를 입력해주세요.</value>
+      <webElementGuid>90ff3929-c4e0-4f08-a9e3-74d3e1265645</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;content brand is-desktop&quot;]/div[@class=&quot;login new&quot;]/div[@class=&quot;loginwrap&quot;]/div[@class=&quot;login-submit&quot;]/div[@class=&quot;login-inner&quot;]/div[@class=&quot;login-box&quot;]/div[@class=&quot;inputwrap-pw is-false&quot;]/span[@class=&quot;notice-text&quot;]</value>
+      <webElementGuid>b0962ed8-846d-4c14-a780-137e9b2d0c6c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div[2]/span[2]</value>
+      <webElementGuid>f3a7a5a3-3137-46a0-9c7e-ddf596239ef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span[2]</value>
+      <webElementGuid>5a966816-43b7-4c94-b36a-881dc746c2f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '비밀번호를 입력해주세요.' or . = '비밀번호를 입력해주세요.')]</value>
+      <webElementGuid>1f468d87-b408-454d-9843-f3701a92c668</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

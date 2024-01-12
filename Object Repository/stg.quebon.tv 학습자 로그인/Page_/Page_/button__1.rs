@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__1</name>
+   <tag></tag>
+   <elementGuidId>ddf8c7ed-d5c6-45b8-b184-c0ce990f9e29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='roadmapPage']/div[2]/div/div[2]/div[3]/div/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.repeat-btn.is-learning</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>72f5ee6f-3872-44ba-b529-cf9083f6ba46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>repeat-btn is-learning</value>
+      <webElementGuid>68cc7327-78ba-4c27-941b-0ad1ae8ad5f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>이어서 학습하기</value>
+      <webElementGuid>f412d5e3-291e-404b-a480-f69fe5328cf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;roadmapPage&quot;)/div[@class=&quot;student-content__main&quot;]/div[@class=&quot;student-content__wrap&quot;]/div[@class=&quot;lp-detail-m show slide-enter-done&quot;]/div[@class=&quot;lp-detail null is-not&quot;]/div[@class=&quot;lp-detail__wrap&quot;]/div[@class=&quot;lp-detail__inner fade-enter-done&quot;]/button[@class=&quot;repeat-btn is-learning&quot;]</value>
+      <webElementGuid>58a0bb94-fd2b-47ba-b238-dedcea778de0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='roadmapPage']/div[2]/div/div[2]/div[3]/div/div[2]/button</value>
+      <webElementGuid>d213ec6e-4f59-4e65-93c5-5ac987b55971</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/button</value>
+      <webElementGuid>60cc6b32-8407-4ea0-ad7e-7db0961f242b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '이어서 학습하기' or . = '이어서 학습하기')]</value>
+      <webElementGuid>bbe2cfc1-96aa-4fb2-a483-871166ba1acb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

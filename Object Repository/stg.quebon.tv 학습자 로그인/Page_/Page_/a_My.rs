@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_My</name>
+   <tag></tag>
+   <elementGuidId>d98a9c12-38bf-40da-852d-bfb100e11568</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/nav/div[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.header__mymenu-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>55ffa779-fe3a-4e82-948b-406298d0746b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header__mymenu-link</value>
+      <webElementGuid>1c989df8-edef-48b4-a48b-1b740869199b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My 메뉴</value>
+      <webElementGuid>afb796e3-a377-4ad4-8d32-fd94de8e3a4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;header is-student is-desktop has-current-learn is-run-page&quot;]/nav[@class=&quot;header-wrap&quot;]/div[@class=&quot;header__mymenu&quot;]/a[@class=&quot;header__mymenu-link&quot;]</value>
+      <webElementGuid>2153d22e-b90c-48d2-aef9-07de9b1521ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/nav/div[4]/a</value>
+      <webElementGuid>d72a3456-edda-4d47-a938-bbe2fbce808c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a</value>
+      <webElementGuid>97c549d8-0652-4deb-9394-f14c89d5f2de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'My 메뉴' or . = 'My 메뉴')]</value>
+      <webElementGuid>d567bca6-10aa-4645-bf9d-ed2da2c433b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

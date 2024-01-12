@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_20.542</name>
+   <tag></tag>
+   <elementGuidId>3f9ed081-0de4-4917-9010-822e72108ae9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/div/div/ul/li[3]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>89798131-ea5f-41c6-96fe-0cd540a91caf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-col justify-center w-full text-[#54CBA9]</value>
+      <webElementGuid>ba711eba-22c4-441f-9ac9-70456ff3f5f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>챕터 20.5/42</value>
+      <webElementGuid>d36bc849-6d4e-45e2-a7f9-6a916b44979e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;min-h-[calc(100vh-80px)] h-[calc(100vh-80px)] -mt-4 overflow-auto bg-white rounded-t-2xl flex justify-center&quot;]/div[@class=&quot;relative min-h-full flex gap-6 px-6 pt-6 max-w-[1200px] mx-auto pb-8 w-full&quot;]/div[@class=&quot;sticky px-2 py-4 bg-gray-100 top-0 left-0 rounded-2xl h-[calc(100vh-140px)] overflow-y-auto&quot;]/ul[@class=&quot;flex flex-col gap-4&quot;]/li[@class=&quot;min-w-[178px]  flex gap-4 p-2 bg-white rounded-2xl font-bold cursor-pointer&quot;]/div[@class=&quot;flex flex-col justify-center w-full text-[#54CBA9]&quot;]</value>
+      <webElementGuid>ec58c0b8-9d4c-4d97-8563-5d996a9395df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div/ul/li[3]/div[2]</value>
+      <webElementGuid>cabe8c77-7abf-46c0-8bc8-09e7608a830e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div[2]</value>
+      <webElementGuid>c5b9d953-b0a3-4bba-a2c9-7257bc77016b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '챕터 20.5/42' or . = '챕터 20.5/42')]</value>
+      <webElementGuid>35f6cdd5-cc95-4721-95e7-b4c355622163</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
