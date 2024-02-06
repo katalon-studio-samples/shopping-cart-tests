@@ -5,6 +5,12 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>09a2e0dd-0e19-40d5-9769-5afa5972ebd5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e316e7e7-cde2-4ff4-84f7-e4519410ab7c</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Flying Ninja'</defaultValue>
       <description></description>

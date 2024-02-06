@@ -31,4 +31,6 @@ for(def productName : productList){
 	CustomKeywords.'sample.Shop.addToCart'(productName.toString(), GlobalVariable.urlProduct)
 }
 CustomKeywords.'sample.Checkout.CheckoutShopWithGlobalVariable'()
+
+//close browser
 WebUI.closeBrowser()
