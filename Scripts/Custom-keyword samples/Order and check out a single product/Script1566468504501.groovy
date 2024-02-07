@@ -25,5 +25,4 @@ CustomKeywords.'sample.Checkout.CheckoutShop'(firstName,lastName,companyName, co
 
 CustomKeywords.'sample.Login.logoutFromApplication'()
 
-// Close browser
 WebUI.closeBrowser()

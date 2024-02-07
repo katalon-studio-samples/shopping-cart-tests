@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>999f20d4-56da-413a-83c3-d0b61a24d0f7</testSuiteGuid>
    <testCaseLink>
       <guid>6b4b97a6-29c8-4b3f-ab03-19fb2018c5c7</guid>
@@ -24,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Multiple Checkout</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>0cb7a72a-21f6-43a0-9509-6ba988da6ba9</testDataLinkId>
          <type>DATA_COLUMN</type>
