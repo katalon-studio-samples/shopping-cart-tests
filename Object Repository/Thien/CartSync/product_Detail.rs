@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>product_Detail</name>
+   <tag></tag>
+   <elementGuidId>36174006-fd99-44ca-bb72-a4fd8553c484</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.pr-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='productdetail-page']/div/div/div/div/div[2]/div[2]/div/h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[@class = 'pr-title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>a6985e57-c188-459a-8a7a-db4be544b16b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pr-title</value>
+      <webElementGuid>eaf4c6a9-3013-44d9-a5a5-ebe76eeebb93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Áo Polo Nam Jacquard Aristino APS207SAH2</value>
+      <webElementGuid>a44a67b7-dd45-4606-a557-704d0642e1ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;productdetail-page&quot;)/div[@class=&quot;productdetail-wrapper&quot;]/div[@class=&quot;productdetail-inner&quot;]/div[@class=&quot;container-fluid p8&quot;]/div[@class=&quot;productdetail--row&quot;]/div[@class=&quot;productdetail--right productdetail-info&quot;]/div[@class=&quot;detail-wrapper&quot;]/div[@class=&quot;pr-infos--heading sticky_show&quot;]/h1[@class=&quot;pr-title&quot;]</value>
+      <webElementGuid>12f1492e-7ee1-4eb8-b5b0-4fd0647dbc61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='productdetail-page']/div/div/div/div/div[2]/div[2]/div/h1</value>
+      <webElementGuid>c7ffec85-96b6-4bec-986e-7465082b41ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aristino'])[1]/following::h1[1]</value>
+      <webElementGuid>0ac691f0-bf55-4a61-b362-3fae3e4dc9ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Áo Polo Nam Jacquard Aristino APS207SAH2'])[1]/following::h1[1]</value>
+      <webElementGuid>35128647-37ac-4841-a60d-f22fc739d461</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Giá đã bao gồm VAT)'])[1]/preceding::h1[1]</value>
+      <webElementGuid>6aab4992-30c3-4cb0-8596-20ba9bfe8ce0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(406)'])[1]/preceding::h1[1]</value>
+      <webElementGuid>2f5b80c1-0eec-4505-8e48-d09516670803</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>657540de-ecc1-4fb6-b038-442ca2930e06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Áo Polo Nam Jacquard Aristino APS207SAH2' or . = 'Áo Polo Nam Jacquard Aristino APS207SAH2')]</value>
+      <webElementGuid>9fc14e7c-4e85-4cbc-aa9e-c498e6444435</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

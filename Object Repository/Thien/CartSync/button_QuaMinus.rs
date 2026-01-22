@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_QuaMinus</name>
+   <tag></tag>
+   <elementGuidId>8f45fc0b-524c-482e-adaa-a81a9bde82c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.qtyminus-mini.qty-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[16]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @class = 'qtyminus-mini qty-btn']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>888e0ff7-5252-4e92-b347-c2f3d129a84e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fd0277f7-f32e-4d2e-951a-283ebdae2aa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>qtyminus-mini qty-btn</value>
+      <webElementGuid>a6fcf7fe-ee9a-48fc-b6ea-6a54b35b1f5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;minicart&quot;)/div[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;sidebar-body&quot;]/div[@class=&quot;list-minicart ajaxMinicart&quot;]/div[@class=&quot;cart-group single&quot;]/div[@class=&quot;item line-item&quot;]/div[@class=&quot;right&quot;]/div[@class=&quot;item-meta&quot;]/div[@class=&quot;item-actions&quot;]/div[@class=&quot;item-quan&quot;]/div[@class=&quot;qty quantity-partent qty-click-mini&quot;]/button[@class=&quot;qtyminus-mini qty-btn&quot;]</value>
+      <webElementGuid>44f4d46c-efcd-4dc7-9e66-c4ef2db1db7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[16]</value>
+      <webElementGuid>b1b96ac7-b2b9-4571-b396-008ea913f465</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='minicart']/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div/div/button</value>
+      <webElementGuid>268cd33c-fee3-44c4-a64e-c3573bf8a04e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quần Short Thể Thao Nam In Aristino ASO800AAH2'])[3]/following::button[1]</value>
+      <webElementGuid>4bd63560-bbe5-4153-a10f-2dbb72e82998</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aristino'])[12]/following::button[1]</value>
+      <webElementGuid>b7b06c4f-8a07-452f-bded-4444369b5172</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tổng tiền hàng'])[1]/preceding::button[2]</value>
+      <webElementGuid>f650e113-d44c-4ebd-978b-17f41096c663</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phí vận chuyển'])[1]/preceding::button[2]</value>
+      <webElementGuid>8d70b23c-d2a0-43ce-8c88-cef29539ac45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/div/button</value>
+      <webElementGuid>98c18dd5-96e5-42e7-8b11-7b0994ae6bce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>420cf71e-94cd-4e7a-a020-dac105c3d17c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

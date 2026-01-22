@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>check_CartSync03</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>079c2915-b2fb-45d1-940c-b6830ecbaf0b</testCaseGuid>
+</TestCaseEntity>

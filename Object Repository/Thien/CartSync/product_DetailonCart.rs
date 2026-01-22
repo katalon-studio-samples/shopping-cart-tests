@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>product_DetailonCart</name>
+   <tag></tag>
+   <elementGuidId>3a1b9a76-1aa4-410b-ba88-4e77745f2265</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.item-desc h3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='minicart']/div/div[2]/div/div/div/div[2]/div/div/h3</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>093e5aa0-0aa9-4069-97e6-8aea7ed23582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Áo Polo Nam Jacquard Aristino APS207SAH2</value>
+      <webElementGuid>cda564c0-7a9d-40d0-b275-096af292cda2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;minicart&quot;)/div[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;sidebar-body&quot;]/div[@class=&quot;list-minicart ajaxMinicart&quot;]/div[@class=&quot;cart-group single&quot;]/div[@class=&quot;item line-item&quot;]/div[@class=&quot;right&quot;]/div[@class=&quot;item-info&quot;]/div[@class=&quot;item-desc&quot;]/h3[1]</value>
+      <webElementGuid>9777b8b9-bee7-4970-aa79-2bfa81be685a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='minicart']/div/div[2]/div/div/div/div[2]/div/div/h3</value>
+      <webElementGuid>e3200f9b-c730-45ea-a280-f261558823d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aristino'])[12]/following::h3[1]</value>
+      <webElementGuid>ea63523a-00e1-4df0-a4de-99bca21884a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tổng tiền hàng'])[1]/preceding::h3[1]</value>
+      <webElementGuid>5a329c10-7736-4014-ac93-52875a08eeb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div/div/h3</value>
+      <webElementGuid>75651109-1eca-45e0-b591-09ffe630473e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Áo Polo Nam Jacquard Aristino APS207SAH2' or . = 'Áo Polo Nam Jacquard Aristino APS207SAH2')]</value>
+      <webElementGuid>748efd3f-c68e-4eff-b81a-de7dddcbb5ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

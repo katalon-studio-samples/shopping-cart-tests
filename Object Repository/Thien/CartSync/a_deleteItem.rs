@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_deleteItem</name>
+   <tag></tag>
+   <elementGuidId>09c5da9a-fea4-4343-8b4d-60a14bfd99f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.item-remove > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick='KG.Helper.deleteItemMiniCartSingle(1)']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8dcdba6b-971f-4d62-abdc-051bae8992a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
+      <webElementGuid>b9af1589-be1f-434c-a2cd-6acbe1718789</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>KG.Helper.deleteItemMiniCartSingle(1)</value>
+      <webElementGuid>a42dcbd0-e6d4-44d7-aabe-673a10c8400d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;minicart&quot;)/div[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;sidebar-body&quot;]/div[@class=&quot;list-minicart ajaxMinicart&quot;]/div[@class=&quot;cart-group single&quot;]/div[@class=&quot;item line-item&quot;]/div[@class=&quot;right&quot;]/div[@class=&quot;item-meta&quot;]/div[@class=&quot;item-actions&quot;]/div[@class=&quot;item-remove&quot;]/a[1]</value>
+      <webElementGuid>ef188223-fdf7-4b6e-81a8-d7553cac0a74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick='KG.Helper.deleteItemMiniCartSingle(1)']</value>
+      <webElementGuid>0aa928b3-47a0-492a-8e3c-f7e5b3aa7ef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='minicart']/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div[2]/a</value>
+      <webElementGuid>c6715dd0-93d7-46c7-b520-e49bb2316820</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Áo Polo Nam Jacquard Aristino APS207SAH2'])[3]/following::a[1]</value>
+      <webElementGuid>a5a29d8f-5b65-46c2-a584-cf695ca2c8da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aristino'])[12]/following::a[2]</value>
+      <webElementGuid>84f08113-9cf7-41e0-8058-c10d10afbf7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tổng tiền hàng'])[1]/preceding::a[1]</value>
+      <webElementGuid>668a67b6-5289-4432-9ba7-c263fe77c495</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phí vận chuyển'])[1]/preceding::a[1]</value>
+      <webElementGuid>98c092e1-0539-4cf7-9a50-a5a95c4a1a7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:void(0);')]</value>
+      <webElementGuid>be8d8660-b594-435b-9075-0cf971c956b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/a</value>
+      <webElementGuid>81810a24-9b94-493d-a53b-7266c4e24d0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:void(0);']</value>
+      <webElementGuid>f410138d-97f7-49d7-a6d4-302e5044f9b3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

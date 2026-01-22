@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>product_PriceDefault</name>
+   <tag></tag>
+   <elementGuidId>e22704fd-079f-40d5-999f-f76c5b48bd60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.item-price > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='minicart']/div/div[2]/div/div/div/div[2]/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;minicart&quot;)/div[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;sidebar-body&quot;]/div[@class=&quot;list-minicart ajaxMinicart&quot;]/div[@class=&quot;cart-group single&quot;]/div[@class=&quot;item line-item&quot;]/div[@class=&quot;right&quot;]/div[@class=&quot;item-info&quot;]/div[@class=&quot;item-price&quot;]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5f55c42b-01de-489c-b26b-94bd14aaf80c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>595,000₫</value>
+      <webElementGuid>4c9facac-00c7-42fe-b277-bf8149688909</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;minicart&quot;)/div[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;sidebar-body&quot;]/div[@class=&quot;list-minicart ajaxMinicart&quot;]/div[@class=&quot;cart-group single&quot;]/div[@class=&quot;item line-item&quot;]/div[@class=&quot;right&quot;]/div[@class=&quot;item-info&quot;]/div[@class=&quot;item-price&quot;]/span[1]</value>
+      <webElementGuid>eb5406da-428d-4dce-abd2-f9c2abd75be5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='minicart']/div/div[2]/div/div/div/div[2]/div/div[2]/span</value>
+      <webElementGuid>0a803b43-dc60-47d5-a84a-c700bbc7f473</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quần Short Thể Thao Nam In Aristino ASO800AAH2'])[3]/following::span[1]</value>
+      <webElementGuid>689431da-afa2-433e-bf2f-663e99b3dc63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aristino'])[12]/following::span[1]</value>
+      <webElementGuid>1a87eebb-0296-48d2-a945-80d6f465a2c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tổng tiền hàng'])[1]/preceding::span[2]</value>
+      <webElementGuid>71c93d07-f1a5-49e1-bad8-d136e3f190b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phí vận chuyển'])[1]/preceding::span[2]</value>
+      <webElementGuid>003e15e2-6e14-4e3f-9478-8a72442dd686</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='595,000₫']/parent::*</value>
+      <webElementGuid>8cee9f3d-54e8-454e-90f9-9af33dd6e8fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/div[2]/span</value>
+      <webElementGuid>266bcb10-69aa-4b94-80bb-43766895c2b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '595,000₫' or . = '595,000₫')]</value>
+      <webElementGuid>deab2f82-92d2-43be-8e8c-097d8b056d5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
